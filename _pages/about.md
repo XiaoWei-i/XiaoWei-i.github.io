@@ -30,6 +30,7 @@ My research interests include Embodied AI, Reinforcement Learning and Recommende
 I am passionate about building powerful decision models.
 
 # 🔥 News
+- *2024.11*: &nbsp;🎉🎉 Homepage has been set up
 - *2024.09*: &nbsp;🎉🎉 Our paper "PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations" is accepted by ACML2024 and Machine Learning Journal.
 
 # 📝 Publications 
@@ -40,6 +41,13 @@ I am passionate about building powerful decision models.
 
 **Wei Xiao***, Huiying Wang*, Qifeng Zhou, Qing Wang
 
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+</div>
+</div>
+
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACML 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -47,6 +55,13 @@ I am passionate about building powerful decision models.
 [PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations]()
 
 **Wei Xiao***, Qifeng Zhou
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+</div>
+</div>
+
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 
 # 🎖 Honors and Awards
