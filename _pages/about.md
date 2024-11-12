@@ -19,15 +19,14 @@ redirect_from:
 
 I'm Xiao Wei, an undergraduate student from Xiamen University. My email is xiaowei2002103@foxmail.com.
 
-# Experience
+# 📍 Experience
 - *2024.7-now*: Research Assistant in Machine Intelligence Lab (MiLAB), Westlake University
 
 - *2021.7-2024.7*: (Bachelor Degree)Major in Automation, Xiamen University
 
 - *2020.9-2021.7*: Major in Biology, Xiamen University
 
-My research interests include Embodied AI, Reinforcement Learning and Recommender system.
-I am passionate about building powerful decision models.
+My research interests include Embodied AI, Reinforcement Learning and Recommender system. I am passionate about building powerful decision models.
 
 # 🔥 News
 - *2024.11*: &nbsp;🎉🎉 Homepage has been set up
@@ -41,27 +40,32 @@ I am passionate about building powerful decision models.
 
 **Wei Xiao***, Huiying Wang*, Qifeng Zhou, Qing Wang
 
-[**Project**](https://github.com/XiaoWei-i/PT4Rec)
+[**Code**](https://github.com/XiaoWei-i/PT4Rec)
 </div>
 </div>
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACML 2024</div><img src='[images/500x300.png](https://github.com/XiaoWei-i/PT4Rec/blob/main/fig1_1.png)' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACML 2024</div><img src='images/pt4rec.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations]()
 
 **Wei Xiao***, Qifeng Zhou
 
-[**Project**](https://github.com/XiaoWei-i/SS4Rec)
+[**Code**](https://github.com/XiaoWei-i/SS4Rec)
 </div>
 </div>
 
 
 
 # 🎖 Honors and Awards
-- *2023.12* [腾讯开悟人工智能全国公开赛博弈算法高级赛道决赛 第四名.](https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002)
-  Team: 南强至善- **Wei Xiao***, Yifang Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, YunLong Liu
-- *2022.07* [第十七届全国大学生智能车竞赛 华南赛区 二等奖.](https://www.smartcar.zone/)
-  Team: 南强至善- Tianhao Hu*, **Wei Xiao**, Yuhang Liu
+- *2023.12* [Tencent Kaiwu Reinforcement Learning Competition](https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002) - Fourth Place (Bonus ￥20,000)
+  Team: 南强至善- **Wei Xiao***, Yifang Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, Yunlong Liu
+- *2022.07* [The 17th National Smart Car Competition for University Students](https://www.smartcar.zone/) - The Second Prize in South Region
+  Team: 南强至善- **Wei Xiao***, Tianhao Hu, Yuhang Liu
+
+- The 13th Mathorcup Mathematical Modelling Competition, Third prize
+- Huawei Software Elite Challenge, Third Prize
+- National Mathematical Modelling Competition for College Students, Second Prize in Fujian Province
+- National Student Algorithm Competition, Excellence Award
