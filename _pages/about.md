@@ -19,7 +19,7 @@ redirect_from:
 
 I'm Xiao Wei, an undergraduate student from Xiamen University. My email is xiaowei2002103@foxmail.com.
 
-Experience
+# Experience
 2024.7-now Research Assistant in Machine Intelligence Lab (MiLAB), Westlake University
 2021.7-2024.7 (Bachelor Degree)Major in Automation, Xiamen University
 2020.9-2021.7 Major in Biology, Xiamen University
@@ -27,7 +27,7 @@ Experience
 My research interests include Embodied AI and Reinforcement Learning.
 
 # 🔥 News
-- *2024.09*: &nbsp;🎉🎉 Our paper "PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations" is accepted by ACML2024 & Machine Learning Journal.
+- *2024.09*: &nbsp;🎉🎉 Our paper "PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations" is accepted by ACML2024 and Machine Learning Journal.
 
 # 📝 Publications 
 
@@ -36,7 +36,7 @@ My research interests include Embodied AI and Reinforcement Learning.
 
 [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Wei Xiao**, Qifeng Zhou
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -48,14 +48,3 @@ My research interests include Embodied AI and Reinforcement Learning.
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
