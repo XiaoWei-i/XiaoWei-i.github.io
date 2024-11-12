@@ -17,7 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm Xiao Wei, an undergraduate student from Xiamen University. My email is xiaowei2002103@foxmail.com.
+I'm Wei Xiao (肖巍), now a Research Assistant at MiLab, Westlake University advised by Donglin Wang. 
+Prior to that, I got my bachelor's degree in Automation from Xiamen University advised by Qifeng Zhou. 
+My email is xiaowei2002103@foxmail.com / xiaowei@westlake.edu.cn.
+
+My research interests include Embodied AI, Reinforcement Learning and Recommender system. I am passionate about building powerful decision models.
 
 # 📍 Experience
 - *2024.7-now*: Research Assistant in Machine Intelligence Lab (MiLAB), Westlake University
@@ -26,10 +30,8 @@ I'm Xiao Wei, an undergraduate student from Xiamen University. My email is xiaow
 
 - *2020.9-2021.7*: Major in Biology, Xiamen University
 
-My research interests include Embodied AI, Reinforcement Learning and Recommender system. I am passionate about building powerful decision models.
-
 # 🔥 News
-- *2024.11*: &nbsp;🎉🎉 Homepage has been set up
+- *2024.11*: &nbsp;🎉🎉 Homepage has been set up.
 - *2024.09*: &nbsp;🎉🎉 Our paper "PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations" is accepted by ACML2024 and Machine Learning Journal.
 
 # 📝 Publications 
