@@ -84,6 +84,7 @@ My research interests include Embodied AI, Reinforcement Learning and Recommende
 
   Team: 南强至善- **Wei Xiao***, Tianhao Hu, Yuhang Liu, Jincai Luo†
  - The Second Prize in South Region
+ - Computer Vision, PID Control.
 [**Technical Report**](https://zhuanlan.zhihu.com/p/672741107)
 </div>
 </div>
