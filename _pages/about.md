@@ -40,7 +40,8 @@ My research interests include Embodied AI, Reinforcement Learning and Recommende
 
 [Continuous-Time Sequential Recommendation with State Space Models]()
 
-**Wei Xiao***, Huiying Wang*, Qifeng Zhou, Qing Wang
+**Wei Xiao***, Huiying Wang*, Qifeng Zhou†, Qing Wang
+
 ACM Transactions on Knowledge Discovery from Data (CCF-B), under review.
 [**Code**](https://github.com/XiaoWei-i/PT4Rec)
 </div>
@@ -53,7 +54,8 @@ ACM Transactions on Knowledge Discovery from Data (CCF-B), under review.
 
 [PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations]()
 
-**Wei Xiao***, Qifeng Zhou
+**Wei Xiao***, Qifeng Zhou†
+
 The 16th Asian Conference on Machine Learning, Machine Learning Journal (CCF-B), accepted.
 [**Code**](https://github.com/XiaoWei-i/SS4Rec)
 </div>
@@ -68,6 +70,7 @@ The 16th Asian Conference on Machine Learning, Machine Learning Journal (CCF-B),
 - *2022.07* [The 17th National Smart Car Competition for University Students](https://www.smartcar.zone/) - The Second Prize in South Region
   
   Team: 南强至善- **Wei Xiao***, Tianhao Hu, Yuhang Liu
+
 
 - The 13th Mathorcup Mathematical Modelling Competition, Third prize.
 - Huawei Software Elite Challenge, Third Prize.
