@@ -41,7 +41,7 @@ My research interests include Embodied AI, Reinforcement Learning and Recommende
 [Continuous-Time Sequential Recommendation with State Space Models]()
 
 **Wei Xiao***, Huiying Wang*, Qifeng Zhou, Qing Wang
-
+ACM Transactions on Knowledge Discovery from Data (CCF-B), under review.
 [**Code**](https://github.com/XiaoWei-i/PT4Rec)
 </div>
 </div>
@@ -54,7 +54,7 @@ My research interests include Embodied AI, Reinforcement Learning and Recommende
 [PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations]()
 
 **Wei Xiao***, Qifeng Zhou
-
+The 16th Asian Conference on Machine Learning, Machine Learning Journal (CCF-B), accepted.
 [**Code**](https://github.com/XiaoWei-i/SS4Rec)
 </div>
 </div>
