@@ -41,8 +41,8 @@ My research interests include Embodied AI, Reinforcement Learning and Recommende
 [Continuous-Time Sequential Recommendation with State Space Models]()
 
 **Wei Xiao***, Huiying Wang*, Qifeng Zhou†, Qing Wang
-
-ACM Transactions on Knowledge Discovery from Data (CCF-B), under review.
+- SSM, Recommender system.
+- ACM Transactions on Knowledge Discovery from Data (CCF-B), under review.
 [**Code**](https://github.com/XiaoWei-i/PT4Rec)
 </div>
 </div>
@@ -55,8 +55,8 @@ ACM Transactions on Knowledge Discovery from Data (CCF-B), under review.
 [PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations]()
 
 **Wei Xiao***, Qifeng Zhou†
-
-The 16th Asian Conference on Machine Learning, Machine Learning Journal (CCF-B), accepted.
+- GNN, Contrastive Learning, Recommender system.
+- The 16th Asian Conference on Machine Learning, Machine Learning Journal (CCF-B), accepted.
 [**Code**](https://github.com/XiaoWei-i/SS4Rec)
 </div>
 </div>
@@ -64,12 +64,29 @@ The 16th Asian Conference on Machine Learning, Machine Learning Journal (CCF-B),
 
 
 # 🎖 Honors and Awards
-- *2023.12* [Tencent Kaiwu Reinforcement Learning Competition](https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002) - Fourth Place (Bonus ￥20,000)
-  
-  Team: 南强至善- **Wei Xiao***, Yifang Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, Yunlong Liu
-- *2022.07* [The 17th National Smart Car Competition for University Students](https://www.smartcar.zone/) - The Second Prize in South Region
-  
-  Team: 南强至善- **Wei Xiao***, Tianhao Hu, Yuhang Liu
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tencent</div><img src='images/kaiwu.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Tencent Kaiwu Reinforcement Learning Competition](https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002) - *2023.12* 
+
+  Team: 南强至善- **Wei Xiao***, Yifang Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, Yunlong Liu†
+ - Fourth Place (with Bonus ￥20,000)
+ - Muitl-Agent, Reinforcement Learning.
+[**Technical Report**]()
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CAA</div><img src='images/car.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[The 17th National Smart Car Competition for University Students](https://www.smartcar.zone/) - *2022.07*
+
+  Team: 南强至善- **Wei Xiao***, Tianhao Hu, Yuhang Liu, Jincai Luo†
+ - The Second Prize in South Region
+[**Technical Report**](https://zhuanlan.zhihu.com/p/672741107)
+</div>
+</div>
 
 
 - The 13th Mathorcup Mathematical Modelling Competition, Third prize.
