@@ -63,11 +63,13 @@ The 16th Asian Conference on Machine Learning, Machine Learning Journal (CCF-B),
 
 # 🎖 Honors and Awards
 - *2023.12* [Tencent Kaiwu Reinforcement Learning Competition](https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002) - Fourth Place (Bonus ￥20,000)
+  
   Team: 南强至善- **Wei Xiao***, Yifang Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, Yunlong Liu
 - *2022.07* [The 17th National Smart Car Competition for University Students](https://www.smartcar.zone/) - The Second Prize in South Region
+  
   Team: 南强至善- **Wei Xiao***, Tianhao Hu, Yuhang Liu
 
-- The 13th Mathorcup Mathematical Modelling Competition, Third prize
-- Huawei Software Elite Challenge, Third Prize
-- National Mathematical Modelling Competition for College Students, Second Prize in Fujian Province
-- National Student Algorithm Competition, Excellence Award
+- The 13th Mathorcup Mathematical Modelling Competition, Third prize.
+- Huawei Software Elite Challenge, Third Prize.
+- National Mathematical Modelling Competition for College Students, Second Prize in Fujian Province.
+- National Student Algorithm Competition, Excellence Award.
