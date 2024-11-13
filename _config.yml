@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Wei Xiao"
-description              : "Homepage of Wei Xiao"
+title                    : "Wei Xiao's Homepage"
+description              : "Wei Xiao's Homepage"
 repository               : "XiaoWei-i/XiaoWei-i.github.io"
 google_scholar_stats_use_cdn : true
 
