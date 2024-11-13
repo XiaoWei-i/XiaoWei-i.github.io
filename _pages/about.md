@@ -43,7 +43,7 @@ My research interests include Embodied AI, Reinforcement Learning and Recommende
 **Wei Xiao***, Huiying Wang*, Qifeng Zhou†, Qing Wang
 - SSM, Recommender system.
 - ACM Transactions on Knowledge Discovery from Data (CCF-B), under review.
-[**Code**](https://github.com/XiaoWei-i/PT4Rec)
+[**Code**](https://github.com/XiaoWei-i/SS4Rec)
 </div>
 </div>
 
@@ -57,7 +57,7 @@ My research interests include Embodied AI, Reinforcement Learning and Recommende
 **Wei Xiao***, Qifeng Zhou†
 - GNN, Contrastive Learning, Recommender system.
 - The 16th Asian Conference on Machine Learning, Machine Learning Journal (CCF-B), accepted.
-[**Code**](https://github.com/XiaoWei-i/SS4Rec)
+[**Code**](https://github.com/XiaoWei-i/PT4Rec)
 </div>
 </div>
 
