@@ -52,7 +52,7 @@ My research interests include Embodied AI, Reinforcement Learning and Recommende
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACML 2024</div><img src='images/pt4rec.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations]()
+[PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations](https://www.acml-conf.org/2024/program/accepted-papers/)
 
 **Wei Xiao***, Qifeng Zhou†
 - GNN, Contrastive Learning, Recommender system.
