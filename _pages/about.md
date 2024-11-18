@@ -17,8 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm Wei Xiao (肖巍), now a Research Assistant at MiLab, Westlake University advised by Donglin Wang. 
-Prior to that, I got my bachelor's degree in Automation from Xiamen University advised by Qifeng Zhou. 
+I'm Wei Xiao (肖巍), now a Research Assistant at [MiLab](https://milab.westlake.edu.cn/index.html), Westlake University advised by [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN). 
+Prior to that, I got my bachelor's degree in Automation from Xiamen University advised by [Qifeng Zhou](https://scholar.google.com/citations?user=yLQpYYYAAAAJ). 
 
 Contact me via xiaowei2002103@foxmail.com / xiaowei@westlake.edu.cn !
 
