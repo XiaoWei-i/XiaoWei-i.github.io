@@ -8,6 +8,9 @@ redirect_from:
   - /about.html
 ---
 
+<div style="background-color: #f8f9fa; padding: 10px; border-radius: 5px; margin-bottom: 20px;">
+</div>
+
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -63,8 +66,6 @@ I am passionate about building generalizable robots and powerful decision models
 [**Code**](https://github.com/XiaoWei-i/PT4Rec)
 </div>
 </div>
-
-
 
 # 🎖 Honors and Awards
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tencent</div><img src='images/kaiwu.png' alt="sym" width="100%"></div></div>
