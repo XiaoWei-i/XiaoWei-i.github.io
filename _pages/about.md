@@ -22,7 +22,9 @@ Prior to that, I got my bachelor's degree in Automation from Xiamen University a
 
 Contact me via xiaowei2002103@foxmail.com / xiaowei@westlake.edu.cn !
 
-My research interests include Embodied AI, Reinforcement Learning and Recommender system. I am passionate about building powerful decision models.
+My research interests include Embodied AI, Reinforcement Learning and Recommender system. 
+
+I am passionate about building generalizable robots and powerful decision models.
 
 # 📍 Experience
 - *2024.7-now*: Research Assistant in Machine Intelligence Lab (MiLAB), Westlake University
@@ -86,7 +88,9 @@ My research interests include Embodied AI, Reinforcement Learning and Recommende
   Team: 南强至善- **Wei Xiao***, Tianhao Hu, Yuhang Liu, Jincai Luo†
  - The Second Prize in South Region
  - Computer Vision, PID Control.
-[**Technical Report**](https://zhuanlan.zhihu.com/p/672741107)
+[**Technical Blog**](https://zhuanlan.zhihu.com/p/672741107)
+[**Video**](https://www.bilibili.com/video/BV1ca411u7DV/)
+[**Video**](https://www.bilibili.com/video/BV1tZ4y1471m/)
 </div>
 </div>
 
@@ -94,4 +98,4 @@ My research interests include Embodied AI, Reinforcement Learning and Recommende
 - The 13th Mathorcup Mathematical Modelling Competition, Third prize.
 - Huawei Software Elite Challenge, Third Prize.
 - National Mathematical Modelling Competition for College Students, Second Prize in Fujian Province.
-- National Student Algorithm Competition, Excellence Award.
+- National Algorithm Competition for College Students, Excellence Award.
