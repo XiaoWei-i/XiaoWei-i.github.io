@@ -101,6 +101,7 @@ I am passionate about building generalizable robots and powerful decision models
 - Huawei Software Elite Challenge, Third Prize.
 - National Mathematical Modelling Competition for College Students, Second Prize in Fujian Province.
 - National Algorithm Competition for College Students, Excellence Award.
+- and so on.
 </div>
 </div>
 
