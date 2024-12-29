@@ -18,11 +18,11 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I'm Wei Xiao (肖巍), now a Research Assistant at [MiLab](https://milab.westlake.edu.cn/index.html), Westlake University advised by [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN). 
-Prior to that, I got my bachelor's degree in Automation from Xiamen University advised by [Qifeng Zhou](https://scholar.google.com/citations?user=yLQpYYYAAAAJ). 
+Prior to that, I got my bachelor's degree in Automation from [Xiamen University](https://www.xmu.edu.cn/) advised by [Qifeng Zhou](https://scholar.google.com/citations?user=yLQpYYYAAAAJ). 
 
 Contact me via xiaowei2002103@foxmail.com / xiaowei@westlake.edu.cn !
 
-My research interests include Embodied AI, Reinforcement Learning and Recommender system. 
+My research interests include Embodied AI and Reinforcement Learning. 
 
 I am passionate about building generalizable robots and powerful decision models.
 
@@ -95,7 +95,11 @@ I am passionate about building generalizable robots and powerful decision models
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='awards/awards.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 - The 13th Mathorcup Mathematical Modelling Competition, Third prize.
 - Huawei Software Elite Challenge, Third Prize.
 - National Mathematical Modelling Competition for College Students, Second Prize in Fujian Province.
 - National Algorithm Competition for College Students, Excellence Award.
+</div>
+</div>
