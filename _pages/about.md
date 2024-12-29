@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<div style="background-color: #f8f9fa; padding: 10px; border-radius: 5px; margin-bottom: 20px;">
-</div>
 
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
