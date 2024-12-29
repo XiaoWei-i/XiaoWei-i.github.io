@@ -106,4 +106,6 @@ I am passionate about building generalizable robots and powerful decision models
 </div>
 
 ## Visitors
+<div style="text-align:center; margin: auto; width: 28%;">
 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=uv7I6l6Tw7u_u34GssyddVANareB9fV10yJt7Bw0q80"></script>
+</div>
