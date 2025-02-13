@@ -19,8 +19,9 @@ redirect_from:
 
 I'm Wei Xiao (肖巍), now a Research Assistant at [MiLab](https://milab.westlake.edu.cn/index.html), Westlake University advised by [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN). 
 Prior to that, I got my bachelor's degree in Automation from [Xiamen University](https://www.xmu.edu.cn/) advised by [Qifeng Zhou](https://scholar.google.com/citations?user=yLQpYYYAAAAJ). 
-
-Contact me via xiaowei2002103@foxmail.com / xiaowei@westlake.edu.cn !
+<span style="color:blue">I am looking for research collaborations and a Ph.D/MPhil. position starting from 2025/2026.</span>
+Please drop me an email if you are interested in my research or just want to chat!
+My email: xiaowei2002103@foxmail.com / xiaowei@westlake.edu.cn !
 
 My research interests include Embodied AI and Reinforcement Learning. 
 
@@ -38,6 +39,28 @@ I am passionate about building generalizable robots and powerful decision models
 - *2024.09*: &nbsp;🎉🎉 Our paper "PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations" is accepted by ACML2024 and Machine Learning Journal.
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/porl.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Efficient Online RL Fine-Tuning with Offline Pre-trained Policy Only]()
+
+**Wei Xiao***, Jiacheng Liu, Zifeng Zhuang, Runze Suo, Shangke Lyu†, Donglin Wang†
+- Online RL Fine-Tuning.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/uap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Uncertainty-Aware Planning: Mitigating Exploration Loss in Model-Based Reinforcement Learning]()
+
+Runze Suo*, Zifeng Zhuang, Shangke Lyu, Xiao He, **Wei Xiao**, Ting Wang, Donglin Wang†
+- Model-Based Reinforcement Learning.
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TKDD(under review)</div><img src='images/ss4rec.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -46,6 +69,7 @@ I am passionate about building generalizable robots and powerful decision models
 **Wei Xiao***, Huiying Wang*, Qifeng Zhou†, Qing Wang
 - SSM, Recommender system.
 - ACM Transactions on Knowledge Discovery from Data (CCF-B), under review.
+[**Paper**](https://arxiv.org/pdf/2502.08132)
 [**Code**](https://github.com/XiaoWei-i/SS4Rec)
 </div>
 </div>
@@ -60,6 +84,7 @@ I am passionate about building generalizable robots and powerful decision models
 **Wei Xiao***, Qifeng Zhou†
 - GNN, Contrastive Learning, Recommender system.
 - The 16th Asian Conference on Machine Learning, Machine Learning Journal (CCF-B), accepted.
+[**Paper**](https://link.springer.com/article/10.1007/s10994-024-06658-0)
 [**Code**](https://github.com/XiaoWei-i/PT4Rec)
 </div>
 </div>
