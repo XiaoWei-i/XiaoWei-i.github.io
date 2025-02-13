@@ -20,9 +20,11 @@ redirect_from:
 
 I'm Wei Xiao (肖巍), now a Research Assistant at [MiLab](https://milab.westlake.edu.cn/index.html), Westlake University advised by [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN). 
 Prior to that, I got my bachelor's degree in Automation from [Xiamen University](https://www.xmu.edu.cn/) advised by [Qifeng Zhou](https://scholar.google.com/citations?user=yLQpYYYAAAAJ). 
+
 <span style="color:blue">I am looking for research collaborations and a Ph.D/MPhil. position starting from 2025/2026.</span>
 Please drop me an email if you are interested in my research or just want to chat!
-My email: xiaowei2002103@foxmail.com / xiaowei@westlake.edu.cn !
+
+Email: xiaowei2002103@foxmail.com / xiaowei@westlake.edu.cn !
 
 My research interests include Embodied AI and Reinforcement Learning. 
 
