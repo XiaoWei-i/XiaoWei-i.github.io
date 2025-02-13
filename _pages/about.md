@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
+
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -88,8 +89,6 @@ Runze Suo*, Zifeng Zhuang, Shangke Lyu, Xiao He, **Wei Xiao**, Ting Wang, Dongli
 [**Code**](https://github.com/XiaoWei-i/PT4Rec)
 </div>
 </div>
-
-
 
 # 🎖 Honors and Awards
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tencent</div><img src='images/kaiwu.png' alt="sym" width="100%"></div></div>
