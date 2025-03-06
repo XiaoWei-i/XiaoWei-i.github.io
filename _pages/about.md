@@ -47,6 +47,7 @@ I am passionate about building generalizable robots and powerful decision models
 <div class='paper-box-text' markdown="1">
 
 [Learning Robotic Policy with Imagined Transition: Mitigating the Trade-off between Robustness and Optimality]()
+
 **Wei Xiao***, Shangke Lyu†, Zhefei Gong, Renjie Wang, Donglin Wang†
 - Robotic Locomotion.
 </div>
@@ -56,6 +57,7 @@ I am passionate about building generalizable robots and powerful decision models
 <div class='paper-box-text' markdown="1">
 
 [Integrating Trajectory Optimization and Reinforcement Learning for Quadrupedal Jumping with Terrain-Adaptive Landing]()
+
 Renjie Wang*, Shangke Lyu†, Xin Lang, **Wei Xiao**, Donglin Wang†
 - Robotic Locomotion.
 </div>
