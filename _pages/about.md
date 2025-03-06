@@ -94,7 +94,6 @@ Runze Suo*, Zifeng Zhuang, Shangke Lyu, Xiao He, **Wei Xiao**, Ting Wang, Dongli
 
 **Wei Xiao***, Huiying Wang*, Qifeng Zhou†, Qing Wang
 - SSM, Recommender system.
-- ACM Transactions on Knowledge Discovery from Data (CCF-B), under review.
 [**Paper**](https://arxiv.org/pdf/2502.08132)
 [**Code**](https://github.com/XiaoWei-i/SS4Rec)
 </div>
