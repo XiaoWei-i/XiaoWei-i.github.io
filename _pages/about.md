@@ -42,7 +42,27 @@ I am passionate about building generalizable robots and powerful decision models
 - *2024.09*: &nbsp;🎉🎉 Our paper "PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations" is accepted by ACML2024 and Machine Learning Journal.
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/porl.png' alt="sym" width="100%"></div></div>
+## Embodied AI & RL
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/lit.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Learning Robotic Policy with Imagined Transition: Mitigating the Trade-off between Robustness and Optimality]()
+**Wei Xiao***, Shangke Lyu†, Zhefei Gong, Renjie Wang, Donglin Wang†
+- Robotic Locomotion.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/to.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Integrating Trajectory Optimization and Reinforcement Learning for Quadrupedal Jumping with Terrain-Adaptive Landing]()
+Renjie Wang*, Shangke Lyu†, Xin Lang, **Wei Xiao**, Donglin Wang†
+- Robotic Locomotion.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/porl.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Efficient Online RL Fine-Tuning with Offline Pre-trained Policy Only]()
@@ -53,7 +73,7 @@ I am passionate about building generalizable robots and powerful decision models
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/uap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/uap.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Uncertainty-Aware Planning: Mitigating Exploration Loss in Model-Based Reinforcement Learning]()
@@ -64,10 +84,11 @@ Runze Suo*, Zifeng Zhuang, Shangke Lyu, Xiao He, **Wei Xiao**, Ting Wang, Dongli
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TKDD(under review)</div><img src='images/ss4rec.png' alt="sym" width="100%"></div></div>
+## Recommender System
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/ss4rec.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Continuous-Time Sequential Recommendation with State Space Models]()
+[Continuous-Time Sequential Recommendation with State Space Models](https://arxiv.org/pdf/2502.08132)
 
 **Wei Xiao***, Huiying Wang*, Qifeng Zhou†, Qing Wang
 - SSM, Recommender system.
@@ -79,7 +100,7 @@ Runze Suo*, Zifeng Zhuang, Shangke Lyu, Xiao He, **Wei Xiao**, Ting Wang, Dongli
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACML 2024</div><img src='images/pt4rec.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACML 2024</div><img src='images/papers/pt4rec.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations](https://www.acml-conf.org/2024/program/accepted-papers/)
