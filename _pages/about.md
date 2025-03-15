@@ -46,9 +46,9 @@ I am passionate about building generalizable robots and powerful decision models
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/lit.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Learning Robotic Policy with Imagined Transition: Mitigating the Trade-off between Robustness and Optimality]()
+[Learning Robotic Policy with Imagined Transition: Mitigating the Trade-off between Robustness and Optimality](https://arxiv.org/abs/2503.10484v1)
 
-**Wei Xiao***, Shangke Lyu†, Zhefei Gong, Renjie Wang, Donglin Wang†
+**Wei Xiao***, Shangke Lyu†, [Zhefei Gong](https://zhefeigong.github.io/), Renjie Wang, Donglin Wang†
 - Robotic Locomotion.
 </div>
 </div>
