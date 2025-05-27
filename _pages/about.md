@@ -16,17 +16,26 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+
+<div class="photo-wall-wide">
+  <img src="images/cover.jpg" alt="Cover">
+  <!-- <img src="images/cover_photos/loco_1.gif" alt="Photo 1">
+  <img src="images/cover_photos/loco_2.gif" alt="Photo 2">
+  <img src="images/cover_photos/loco_3.gif" alt="Photo 3"> -->
+  <!-- 可继续添加更多图片 -->
+</div>
+
 <span class='anchor' id='about-me'></span>
 
 Hi!, I'm **Wei Xiao (肖巍)**, currently a Research Assistant at [MiLab](https://milab.westlake.edu.cn/index.html), [**Westlake University**](https://www.westlake.edu.cn/) advised by [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN). 
 Prior to that, I got my bachelor's degree in Automation from [**Xiamen University**](https://www.xmu.edu.cn/) advised by [Qifeng Zhou](https://scholar.google.com/citations?user=yLQpYYYAAAAJ). 
 
-<span style="color:pink">I am looking for research collaborations and a PhD position</span> starting from <span style="color:red">2026 Fall.</span>
+<span style="color:red">I am looking for research collaborations and a PhD position</span> starting from <span style="color:red">2026 Fall.</span>
 Please drop me an email if you are interested in my research or just want to chat!
 
 Email: **xiaowei2002103@foxmail.com** !
 
-I like \textbf{Robotic Learning}. I am focused on building end-to-end robots with <span style="color:red">Universality, Generalizability</span>, and <span style="color:red">Robustness</span>, utilizing learning‑based methods that scale with data and computation. I am currently passionate about <span style="color:red">Manipulation</span> and <span style="color:red">Locomotion</span> tasks.
+I like **Robotic Learning** (Embodied AI?) and **Reinforcement Learning**. I am focused on building end-to-end robots with <span style="color:red">Universality, Generalizability</span>, and <span style="color:red">Robustness</span>, utilizing learning‑based methods that scale with data and computation. I am currently passionate about <span style="color:red">Manipulation</span> and <span style="color:red">Locomotion</span> tasks.
 
 
 # 📍 Experience
