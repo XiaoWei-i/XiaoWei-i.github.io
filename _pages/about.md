@@ -43,7 +43,7 @@ I like \textbf{Robotic Learning}. I am focused on building end-to-end robots wit
 
 # 📝 Publications 
 ## Embodied AI & RL
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/porl.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/porl.png' alt="sym" height="200px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Efficient Online RL Fine-Tuning with Offline Pre-trained Policy Only**
@@ -55,7 +55,7 @@ I like \textbf{Robotic Learning}. I am focused on building end-to-end robots wit
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/lit.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/lit.png' alt="sym" height="200px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Learning Robotic Policy with Imagined Transition: Mitigating the Trade-off between Robustness and Optimality**
@@ -67,7 +67,7 @@ I like \textbf{Robotic Learning}. I am focused on building end-to-end robots wit
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/korr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/korr.png' alt="sym" height="200px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Robust Online Residual Refinement via Koopman-Guided Dynamics Modeling**
@@ -78,7 +78,7 @@ Zhefei Gong, Shangke Lyu, Pengxiang Ding, **Wei Xiao**, Donglin Wang†
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/to.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/to.png' alt="sym" height="200px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Integrating Trajectory Optimization and Reinforcement Learning for Quadrupedal Jumping with Terrain-Adaptive Landing**
@@ -89,7 +89,7 @@ Renjie Wang*, Shangke Lyu†, Xin Lang, **Wei Xiao**, Donglin Wang†
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/uap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/uap.png' alt="sym" height="200px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Uncertainty-Aware Planning: Mitigating Exploration Loss in Model-Based Reinforcement Learning**
@@ -101,7 +101,7 @@ Runze Suo*, Zifeng Zhuang, Shangke Lyu, Xiao He, **Wei Xiao**, Ting Wang, Dongli
 
 
 ## Recommender System
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/ss4rec.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/ss4rec.png' alt="sym" height="200px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Continuous-Time Sequential Recommendation with State Space Models**
@@ -115,7 +115,7 @@ Runze Suo*, Zifeng Zhuang, Shangke Lyu, Xiao He, **Wei Xiao**, Ting Wang, Dongli
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACML 2024</div><img src='images/papers/pt4rec.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACML 2024</div><img src='images/papers/pt4rec.png' alt="sym" height="200px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations**
@@ -129,7 +129,7 @@ Runze Suo*, Zifeng Zhuang, Shangke Lyu, Xiao He, **Wei Xiao**, Ting Wang, Dongli
 </div>
 
 # 🎖 Honors and Awards
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tencent</div><img src='images/projects/kaiwu.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tencent</div><img src='images/projects/kaiwu.png' alt="sym" height="200px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Tencent Kaiwu Reinforcement Learning Competition](https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002) - *2023.12* 
@@ -142,7 +142,7 @@ Runze Suo*, Zifeng Zhuang, Shangke Lyu, Xiao He, **Wei Xiao**, Ting Wang, Dongli
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CAA</div><img src='images/projects/car.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CAA</div><img src='images/projects/car.png' alt="sym" height="200px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [The 17th National Smart Car Competition for University Students](https://www.smartcar.zone/) - *2022.07*
@@ -157,7 +157,7 @@ Runze Suo*, Zifeng Zhuang, Shangke Lyu, Xiao He, **Wei Xiao**, Ting Wang, Dongli
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='awards/awards.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='awards/awards.png' alt="sym" height="200px"></div></div>
 <div class='paper-box-text' markdown="1">
 - The 13th Mathorcup Mathematical Modelling Competition, Third prize.
 - Huawei Software Elite Challenge, Third Prize.
