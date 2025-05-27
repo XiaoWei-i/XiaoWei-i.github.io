@@ -70,7 +70,7 @@
     
     @include breakpoint($medium) {
         .paper-box-image{
-            justify-content: left;
+            justify-content: center;
             max-height: 200px; 
             min-width: 200px;
             max-width: 40%;
@@ -111,17 +111,15 @@ h1:before, .anchor:before {
 }
 
 .photo-wall-wide {
-  width: 100vw;
+  width: 100%;
   max-width: 100%;
-  height: 300px; /* 300pt ≈ 400px */
+  height: 300px;
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
   overflow-y: hidden;
   align-items: center;
   justify-content: center;
-  margin-left: 50%;
-  transform: translateX(-50%);
   margin-bottom: 2em;
   background: #f8f8f8;
   box-shadow: 0 2px 12px #eee;

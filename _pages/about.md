@@ -19,9 +19,11 @@ redirect_from:
 
 <div class="photo-wall-wide">
   <!-- <img src="images/cover.jpg" alt="Cover"> -->
-  <img src="images/cover_photos/loco_1.gif" alt="Photo 1">
-  <img src="images/cover_photos/loco_2.gif" alt="Photo 2">
-  <img src="images/cover_photos/loco_3.gif" alt="Photo 3">
+  <img src="images/cover_photos/loco_1.gif" alt="Photo">
+  <img src="images/cover_photos/human.gif" alt="Photo">
+  <img src="images/cover_photos/loco_2.gif" alt="Photo">
+  <img src="images/cover_photos/car.gif" alt="Photo">
+  <img src="images/cover_photos/loco_3.gif" alt="Photo">
   <!-- 可继续添加更多图片 -->
 </div>
 
@@ -50,12 +52,12 @@ I like **Robotic Learning** (Embodied AI?) and **Reinforcement Learning**. I am 
     - <em>2021.7-2024.7</em>: (B.Eng) Major in Automation, Xiamen University<br>
     - <em>2020.9-2021.7</em>: Major in Biology, Xiamen University
   </span>
-  <img src="images/xmu.jpg" alt="Xiamen University" style="height:32px; margin-left:10px;">
+  <img src="images/xmu.jpg" alt="Xiamen University" style="height:64px; margin-left:10px;">
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 0.5em;">
   <span style="flex:1;">- <em>2024.7-now</em>: Research Assistant in Machine Intelligence Lab (MiLAB), Westlake University</span>
-  <img src="images/westlake.png" alt="Westlake University" style="height:32px; margin-left:10px;">
+  <img src="images/westlake.png" alt="Westlake University" style="height:64px; margin-left:10px;">
 </div>
 
 # 🔥 News
