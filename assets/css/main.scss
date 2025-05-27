@@ -52,6 +52,7 @@
 
     .paper-box-image{
         justify-content: center;
+        align-items: center;
         display: flex;
         width: 100%;
         order: 2;
@@ -71,6 +72,7 @@
     @include breakpoint($medium) {
         .paper-box-image{
             justify-content: center;
+            align-items: center;
             max-height: 200px; 
             min-width: 200px;
             max-width: 40%;

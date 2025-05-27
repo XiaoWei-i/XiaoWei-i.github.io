@@ -21,9 +21,7 @@ redirect_from:
   <!-- <img src="images/cover.jpg" alt="Cover"> -->
   <img src="images/cover_photos/loco_1.gif" alt="Photo">
   <img src="images/cover_photos/human.gif" alt="Photo">
-  <img src="images/cover_photos/loco_2.gif" alt="Photo">
   <img src="images/cover_photos/car.gif" alt="Photo">
-  <img src="images/cover_photos/loco_3.gif" alt="Photo">
   <!-- 可继续添加更多图片 -->
 </div>
 
