@@ -27,23 +27,21 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi!, I'm **Wei Xiao (肖巍)**, currently a Research Assistant at [MiLab](https://milab.westlake.edu.cn/index.html), [**Westlake University**](https://www.westlake.edu.cn/) advised by [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN). 
-Prior to that, I got my bachelor's degree in Automation from [**Xiamen University**](https://www.xmu.edu.cn/) advised by [Qifeng Zhou](https://scholar.google.com/citations?user=yLQpYYYAAAAJ). 
+<div style="display: flex; align-items: center; margin-bottom: 0.5em;">
+  <span style="flex:1;">
+  Hi!, I'm **Wei Xiao (肖巍)**, previously a Research Assistant at [MiLab](https://milab.westlake.edu.cn/index.html), [**Westlake University**](https://www.westlake.edu.cn/) advised by [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN). 
+  Prior to that, I got my bachelor's degree in Automation from [**Xiamen University**](https://www.xmu.edu.cn/) advised by [Qifeng Zhou](https://scholar.google.com/citations?user=yLQpYYYAAAAJ). 
+  </span>
+  <img src="images/head_.jpg" alt="Head" style="height:164px; margin-left:10px;">
+</div>
 
 <span style="color:red">I am looking for research collaborations and a PhD position</span> starting from <span style="color:red">2026 Fall.</span>
-Please drop me an email if you are interested in my research or just want to chat!
-
-Email: **xiaowei2002103@foxmail.com** !
+Please drop me an email if you are interested in my research or just want to chat! Email: **xiaowei2002103@foxmail.com**
 
 I like **Robotic Learning** (Embodied AI?) and **Reinforcement Learning**. I am focused on building end-to-end robots with <span style="color:red">Universality, Generalizability</span>, and <span style="color:red">Robustness</span>, utilizing learning‑based methods that scale with data and computation. I am currently passionate about <span style="color:red">Manipulation</span> and <span style="color:red">Locomotion</span> tasks.
 
 
 # 📍 Experience
-<!-- - *2024.7-now*: Research Assistant in Machine Intelligence Lab (MiLAB), Westlake University
-
-- *2021.7-2024.7*: (B.Eng)Major in Automation, Xiamen University
-
-- *2020.9-2021.7*: Major in Biology, Xiamen University -->
 
 <div style="display: flex; align-items: center; margin-bottom: 0.5em;">
   <span style="flex:1;">
