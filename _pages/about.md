@@ -54,7 +54,7 @@ I like **Robotic Learning** (Embodied AI?) and **Reinforcement Learning**. I am 
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 0.5em;">
-  <span style="flex:1;">- <em>2024.7-now</em>: Research Assistant in Machine Intelligence Lab (MiLAB), Westlake University</span>
+  <span style="flex:1;">- <em>2024.7-2025.6</em>: Research Assistant in Machine Intelligence Lab (MiLAB), Westlake University</span>
   <img src="images/westlake.png" alt="Westlake University" style="height:64px; margin-left:10px;">
 </div>
 
@@ -94,19 +94,20 @@ I like **Robotic Learning** (Embodied AI?) and **Reinforcement Learning**. I am 
 
 **Robust Online Residual Refinement via Koopman-Guided Dynamics Modeling**
 
-Zhefei Gong, Shangke Lyu, Pengxiang Ding, **Wei Xiao**, Donglin Wang†
+[Zhefei Gong](https://zhefeigong.github.io/), Shangke Lyu, [Pengxiang Ding](https://dingpx.github.io/), **Wei Xiao**, Donglin Wang†
 - Robotic Manipulation, Model-Based RL.
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">(under review)</div><img src='images/papers/to.png' alt="sym" height="200px" width=auto></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2025</div><img src='images/papers/to.png' alt="sym" height="200px" width=auto></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Integrating Trajectory Optimization and Reinforcement Learning for Quadrupedal Jumping with Terrain-Adaptive Landing**
 
 Renjie Wang*, Shangke Lyu†, Xin Lang, **Wei Xiao**, Donglin Wang†
 - Robotic Locomotion, Trajectory Optimization, RL.
+- The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025), accepted.
 </div>
 </div>
 
@@ -128,7 +129,7 @@ Runze Suo*, Zifeng Zhuang, Shangke Lyu, Xiao He, **Wei Xiao**, Ting Wang, Dongli
 
 **Continuous-Time Sequential Recommendation with State Space Models**
 
-**Wei Xiao***, Huiying Wang*, Qifeng Zhou†, Qing Wang
+**Wei Xiao***, Huiying Wang*, Qifeng Zhou†, [Qing Wang](https://kesyren.github.io/)
 - SSM, Recommender system.
 [**Paper**](https://arxiv.org/pdf/2502.08132)
 [**Code**](https://github.com/XiaoWei-i/SS4Rec)
@@ -156,7 +157,7 @@ Runze Suo*, Zifeng Zhuang, Shangke Lyu, Xiao He, **Wei Xiao**, Ting Wang, Dongli
 
 [Tencent Kaiwu Reinforcement Learning Competition](https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002) - *2023.12* 
 
-  Team: 南强至善- **Wei Xiao***, Yifang Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, Yunlong Liu†
+  Team: 南强至善- **Wei Xiao***, Yifang Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, [Yunlong Liu](https://yunlongliu.github.io/)†
  - Fourth Place (with Bonus ￥20,000)
  - Muitl-Agent, Reinforcement Learning.
 [**Technical Report**]()
@@ -173,8 +174,8 @@ Runze Suo*, Zifeng Zhuang, Shangke Lyu, Xiao He, **Wei Xiao**, Ting Wang, Dongli
  - The Second Prize in South Region
  - Computer Vision, PID Control.
 [**Technical Blog**](https://zhuanlan.zhihu.com/p/672741107)
-[**Video**](https://www.bilibili.com/video/BV1ca411u7DV/)
-[**Video**](https://www.bilibili.com/video/BV1tZ4y1471m/)
+[**Video1**](https://www.bilibili.com/video/BV1ca411u7DV/)
+[**Video2**](https://www.bilibili.com/video/BV1tZ4y1471m/)
 </div>
 </div>
 
