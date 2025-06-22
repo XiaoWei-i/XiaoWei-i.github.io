@@ -29,8 +29,15 @@ redirect_from:
 
 <div style="display: flex; align-items: center; margin-bottom: 0.5em;">
   <span style="flex:1;">
-  Hi!, I'm **Wei Xiao (肖巍)**, previously a Research Assistant at [MiLab](https://milab.westlake.edu.cn/index.html), [**Westlake University**](https://www.westlake.edu.cn/) advised by [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN). 
-  Prior to that, I got my bachelor's degree in Automation from [**Xiamen University**](https://www.xmu.edu.cn/) advised by [Qifeng Zhou](https://scholar.google.com/citations?user=yLQpYYYAAAAJ). 
+    Hi!, I'm <strong>Wei Xiao (肖巍)</strong>, previously a Research Assistant at 
+    <a href="https://milab.westlake.edu.cn/index.html" target="_blank">MiLab</a>, 
+    <a href="https://www.westlake.edu.cn/" target="_blank"><strong>Westlake University</strong></a> 
+    advised by 
+    <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN" target="_blank">Donglin Wang</a>.
+    Prior to that, I got my bachelor's degree in Automation from 
+    <a href="https://www.xmu.edu.cn/" target="_blank"><strong>Xiamen University</strong></a> 
+    advised by 
+    <a href="https://scholar.google.com/citations?user=yLQpYYYAAAAJ" target="_blank">Qifeng Zhou</a>.
   </span>
   <img src="images/head_.jpg" alt="Head" style="height:164px; margin-left:10px;">
 </div>
