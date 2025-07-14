@@ -29,12 +29,12 @@ redirect_from:
 
 <div style="display: flex; align-items: center; margin-bottom: 0.5em;">
   <span style="flex:1;">
-    Hi!, I'm <strong>Wei Xiao (肖巍)</strong>, previously a Research Assistant at 
+    Hi! I'm <strong>Wei Xiao (肖巍)</strong>, currently working with <a href="https://yaomarkmu.github.io/" target="_blank">Yao (Mark) Mu</a> in SJTU. Previously, I was a Research Assistant at 
     <a href="https://milab.westlake.edu.cn/index.html" target="_blank">MiLab</a>, 
     <a href="https://www.westlake.edu.cn/" target="_blank"><strong>Westlake University</strong></a> 
     advised by 
     <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN" target="_blank">Donglin Wang</a>.
-    Prior to that, I got my bachelor's degree in Automation from 
+    I got my bachelor's degree in Automation from 
     <a href="https://www.xmu.edu.cn/" target="_blank"><strong>Xiamen University</strong></a> 
     advised by 
     <a href="https://scholar.google.com/citations?user=yLQpYYYAAAAJ" target="_blank">Qifeng Zhou</a>.
@@ -64,6 +64,7 @@ I like **Robotic Learning** (Embodied AI?) and **Reinforcement Learning**. I am 
 </div>
 
 # 🔥 News
+- *2025.7*: &nbsp;⭐⭐ A summary of VLA+RL - [Awesome-VLA-RL](https://github.com/XiaoWei-i/Awesome-VLA-RL) - is available in Github.
 - *2025.5*: &nbsp;🎉🎉 Our works [PORL](https://arxiv.org/abs/2505.16856) and [LIT](https://arxiv.org/abs/2503.10484v1) is available in arxiv.
 - *2024.11*: &nbsp;🎉🎉 Homepage has been set up.
 - *2024.09*: &nbsp;🎉🎉 Our paper [PT4Rec](https://link.springer.com/article/10.1007/s10994-024-06658-0) is accepted by ACML2024 and Machine Learning Journal.
