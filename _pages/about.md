@@ -37,14 +37,15 @@ redirect_from:
     <a href="https://www.xmu.edu.cn/" target="_blank"><strong>Xiamen University</strong></a> 
     advised by 
     <a href="https://scholar.google.com/citations?user=yLQpYYYAAAAJ" target="_blank">Qifeng Zhou</a>.
-    <span style="color:red">I am looking for research collaborations and a PhD position</span> starting from <span style="color:red">2026 Fall.</span>
+    <span style="color:darkblue">
+    I am looking for research collaborations and a PhD position</span> starting from <span style="color:darkblue">2026 Fall.</span>
     Please drop me an email if you are interested in my research or just want to chat! Email: <strong>xiaowei2002103@foxmail.com</strong>
   </span>
   <!-- <img src="images/head_.jpg" alt="Head" style="height:164px; margin-left:10px;"> -->
 </div>
 
 
-I like **Robotic Learning** (Embodied AI?) and **Reinforcement Learning**. I am focused on building end-to-end robots with <span style="color:red">Universality, Generalizability</span>, and <span style="color:red">Robustness</span>, utilizing learning‑based methods that scale with data and computation. I am currently passionate about <span style="color:red">Manipulation</span> and <span style="color:red">Locomotion</span> tasks.
+I like **Robotic Learning** (Embodied AI?), **Reinforcement Learning**, and **World Model**. I am focusing on building end-to-end robots with <span style="color:darkblue">Universality, Generalizability</span>, and <span style="color:darkblue">Robustness</span>, utilizing learning‑based methods that scale with data and computation. I am currently passionate about <span style="color:darkblue">Manipulation</span> and <span style="color:darkblue">Locomotion</span> tasks.
 
 
 # Experience
@@ -114,7 +115,7 @@ Renjie Wang*, Shangke Lyu†, Xin Lang, **Wei Xiao**, [Donglin Wang](https://sch
 
 [Zhefei Gong](https://zhefeigong.github.io/), [Shangke Lyu](https://scholar.google.com/citations?user=3_DtxJ8AAAAJ), [Pengxiang Ding](https://dingpx.github.io/), **Wei Xiao**, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
 </div>
-</div> -->
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/uap.png' alt="sym" height="200px" width=auto></div></div>
 <div class='paper-box-text' markdown="1">
