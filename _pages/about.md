@@ -17,12 +17,9 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 
-<!-- <div class="photo-wall-wide"> -->
-  <!-- <img src="images/cover.jpg" alt="Cover"> -->
-  <!-- <img src="images/gif/loco_1.gif" alt="Photo">
-  <img src="images/gif/human.gif" alt="Photo">
-  <img src="images/gif/car.gif" alt="Photo"> -->
-<!-- </div> -->
+<div class="photo-wall-wide">
+  <img src="images/cover.jpg" alt="Cover">
+</div>
 
 <span class='anchor' id='about-me'></span>
 
@@ -93,7 +90,8 @@ I like **Robotic Learning** (Embodied AI?), **Reinforcement Learning**, and **Wo
 **Learning Robotic Policy with Imagined Transition: Mitigating the Trade-off between Robustness and Optimality**
 
 **Wei Xiao***, [Shangke Lyu](https://scholar.google.com/citations?user=3_DtxJ8AAAAJ)†, [Zhefei Gong](https://zhefeigong.github.io/), Renjie Wang, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
-- [**Arxiv**](https://arxiv.org/abs/2503.10484v1)
+- [**Arxiv**](https://arxiv.org/abs/2503.10484v1) | 
+[**Video**](https://www.bilibili.com/video/BV1wbQDYmENv/)
 </div>
 </div>
 
@@ -134,7 +132,7 @@ Runze Suo*, Zifeng Zhuang, [Shangke Lyu](https://scholar.google.com/citations?us
 **Continuous-Time Sequential Recommendation with State Space Models**
 
 **Wei Xiao***, Huiying Wang*, [Qifeng Zhou](https://scholar.google.com/citations?user=yLQpYYYAAAAJ)†, [Qing Wang](https://kesyren.github.io/)
-[**Arxiv**](https://arxiv.org/pdf/2502.08132)
+- [**Arxiv**](https://arxiv.org/pdf/2502.08132) | 
 [**Code**](https://github.com/XiaoWei-i/SS4Rec)
 </div>
 </div>
@@ -148,7 +146,7 @@ Runze Suo*, Zifeng Zhuang, [Shangke Lyu](https://scholar.google.com/citations?us
 
 **Wei Xiao***, [Qifeng Zhou](https://scholar.google.com/citations?user=yLQpYYYAAAAJ)†
 - The 16th Asian Conference on Machine Learning, Machine Learning Journal, (ACML2024).
-[**Paper**](https://link.springer.com/article/10.1007/s10994-024-06658-0)
+[**Paper**](https://link.springer.com/article/10.1007/s10994-024-06658-0) | 
 [**Code**](https://github.com/XiaoWei-i/PT4Rec)
 </div>
 </div>
@@ -157,11 +155,11 @@ Runze Suo*, Zifeng Zhuang, [Shangke Lyu](https://scholar.google.com/citations?us
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/projects/kaiwu.png' alt="sym" height="200px" width=auto></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Tencent Kaiwu Reinforcement Learning Competition](https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002) - *2023.12* 
+**Tencent Kaiwu Reinforcement Learning Competition**
 
-  Team: 南强至善- **Wei Xiao***, Yifang Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, [Yunlong Liu](https://yunlongliu.github.io/)†
- - Fourth Place (with Bonus ￥20,000)
-[**Technical Report**]()
+Team: 南强至善- **Wei Xiao***, Yifang Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, [Yunlong Liu](https://yunlongliu.github.io/)†
+- Fourth Place (with Bonus ￥20,000) - *2023.12* 
+- [**Leaderboard**](https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002)
 </div>
 </div>
 
@@ -169,12 +167,12 @@ Runze Suo*, Zifeng Zhuang, [Shangke Lyu](https://scholar.google.com/citations?us
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/gif/car.gif' alt="sym" height="200px" width=auto></div></div>
 <div class='paper-box-text' markdown="1">
 
-[The 17th National Smart Car Competition for University Students](https://www.smartcar.zone/) - *2022.07*
+**The 17th National Smart Car Competition for University Students**
 
-  Team: 南强至善- **Wei Xiao***, Tianhao Hu, Yuhang Liu, Jincai Luo†
- - The Second Prize in South Region
-[**Technical Blog**](https://zhuanlan.zhihu.com/p/672741107)
-[**Video1**](https://www.bilibili.com/video/BV1ca411u7DV/)
+Team: 南强至善- **Wei Xiao***, Tianhao Hu, Yuhang Liu, Jincai Luo†
+- The Second Prize in South Region - *2022.07*
+- [**Technical Blog**](https://zhuanlan.zhihu.com/p/672741107) | 
+[**Video1**](https://www.bilibili.com/video/BV1ca411u7DV/) | 
 [**Video2**](https://www.bilibili.com/video/BV1tZ4y1471m/)
 </div>
 </div>
