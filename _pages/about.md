@@ -41,14 +41,14 @@ redirect_from:
 
 <div style="display: flex; align-items: center; margin-bottom: 0.5em;">
   <span style="flex:1;">
-  I am looking for research collaborations and a PhD position starting from </strong>2026 Fall</strong>.
-  Please drop me an email if you are interested in my research or just want to chat! Email: </strong>xiaowei2002103@foxmail.com</strong>
+  I am looking for research collaborations and a PhD position starting from <strong>2026 Fall</strong>.
+  Please drop me an email if you are interested in my research or just want to chat! Email: <strong>xiaowei2002103@foxmail.com</strong>
   </span>
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 0.5em;">
   <span style="flex:1;">
-  I like </strong>Robotic Learning</strong> (Embodied AI?), </strong>Reinforcement Learning</strong>, and </strong>World Model</strong>. I am focusing on building end-to-end robots with </strong>Universality, Generalizability, and Robustness</strong>, utilizing learning‑based methods that scale with data and computation. I am currently passionate about </strong>Manipulation and Locomotion</strong> tasks.
+  I like <strong>Robotic Learning</strong> (Embodied AI?), <strong>Reinforcement Learning</strong>, and <strong>World Model</strong>. I am focusing on building end-to-end robots with <strong>Universality, Generalizability, and Robustness</strong>, utilizing learning‑based methods that scale with data and computation. I am currently passionate about <strong>Manipulation and Locomotion</strong> tasks.
   </span>
 </div>
 
@@ -56,7 +56,7 @@ redirect_from:
 
 <div style="display: flex; align-items: center; margin-bottom: 0.5em;">
   <span style="flex:1;">
-    - <em>2021.7-2024.7</em>: (B.Eng) Major in Automation, Xiamen University<br>
+    - <em>2021.7-2024.7</em>: Bachelor of Engineering - Major in Automation, Xiamen University<br>
     - <em>2020.9-2021.7</em>: Major in Biology, Xiamen University
   </span>
   <img src="images/xmu.jpg" alt="Xiamen University" style="height:64px; margin-left:10px;">
