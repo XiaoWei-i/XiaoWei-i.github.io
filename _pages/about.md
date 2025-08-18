@@ -21,6 +21,7 @@ redirect_from:
   <img src="images/cover.jpg" alt="Cover">
 </div>
 
+# About Me
 <span class='anchor' id='about-me'></span>
 
 <div style="display: flex; align-items: center; margin-bottom: 0.5em;">
@@ -34,16 +35,22 @@ redirect_from:
     <a href="https://www.xmu.edu.cn/" target="_blank"><strong>Xiamen University</strong></a> 
     advised by 
     <a href="https://scholar.google.com/citations?user=yLQpYYYAAAAJ" target="_blank">Qifeng Zhou</a>.
-    <span style="color:darkblue">
-    I am looking for research collaborations and a PhD position</span> starting from <span style="color:darkblue">2026 Fall.</span>
-    Please drop me an email if you are interested in my research or just want to chat! Email: <strong>xiaowei2002103@foxmail.com</strong>
   </span>
   <!-- <img src="images/head_.jpg" alt="Head" style="height:164px; margin-left:10px;"> -->
 </div>
 
+<div style="display: flex; align-items: center; margin-bottom: 0.5em;">
+  <span style="flex:1;">
+  I am looking for research collaborations and a PhD position starting from </strong>2026 Fall</strong>.
+  Please drop me an email if you are interested in my research or just want to chat! Email: </strong>xiaowei2002103@foxmail.com</strong>
+  </span>
+</div>
 
-I like **Robotic Learning** (Embodied AI?), **Reinforcement Learning**, and **World Model**. I am focusing on building end-to-end robots with <span style="color:darkblue">Universality, Generalizability</span>, and <span style="color:darkblue">Robustness</span>, utilizing learning‑based methods that scale with data and computation. I am currently passionate about <span style="color:darkblue">Manipulation</span> and <span style="color:darkblue">Locomotion</span> tasks.
-
+<div style="display: flex; align-items: center; margin-bottom: 0.5em;">
+  <span style="flex:1;">
+  I like </strong>Robotic Learning</strong> (Embodied AI?), </strong>Reinforcement Learning</strong>, and </strong>World Model</strong>. I am focusing on building end-to-end robots with </strong>Universality, Generalizability, and Robustness</strong>, utilizing learning‑based methods that scale with data and computation. I am currently passionate about </strong>Manipulation and Locomotion</strong> tasks.
+  </span>
+</div>
 
 # Experience
 
@@ -62,7 +69,7 @@ I like **Robotic Learning** (Embodied AI?), **Reinforcement Learning**, and **Wo
 
 <div style="display: flex; align-items: center; margin-bottom: 0.5em;">
   <span style="flex:1;">- <em>2025.6-Now</em>: Research Intern in Spatial Cognition and Robotic Automative Learning Laboratory (ScaleLAB), Shanghai Jiao Tong University</span>
-  <img src="images/sjtu.png" alt="Shanghai Jiao Tong University" style="height:64px; margin-left:10px;">
+  <img src="images/sjtu.png" alt="Shanghai Jiao Tong University" style="height:70px; margin-left:10px;">
 </div>
 
 # News
@@ -146,7 +153,7 @@ Runze Suo*, Zifeng Zhuang, [Shangke Lyu](https://scholar.google.com/citations?us
 
 **Wei Xiao***, [Qifeng Zhou](https://scholar.google.com/citations?user=yLQpYYYAAAAJ)†
 - The 16th Asian Conference on Machine Learning, Machine Learning Journal, (ACML2024).
-[**Paper**](https://link.springer.com/article/10.1007/s10994-024-06658-0) | 
+- [**Paper**](https://link.springer.com/article/10.1007/s10994-024-06658-0) | 
 [**Code**](https://github.com/XiaoWei-i/PT4Rec)
 </div>
 </div>
