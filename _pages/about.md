@@ -8,6 +8,20 @@ redirect_from:
   - /about.html
 ---
 
+/* 全局修改链接颜色 */
+a {
+  color: black;         
+  text-decoration: none; /* 去掉下划线（如果不想去掉可以删掉这行） */
+}
+
+/* 鼠标悬停时（hover）也保持黑色 */
+a:hover,
+a:focus,
+a:active {
+  color: black;
+  text-decoration: underline; /* 或者 none，看你喜好 */
+}
+
 
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
