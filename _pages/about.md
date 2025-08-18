@@ -53,6 +53,7 @@ redirect_from:
 </div>
 
 # Experience
+<span class='anchor' id='-experience'></span>
 
 <div style="display: flex; align-items: center; margin-bottom: 0.5em;">
   <span style="flex:1;">
@@ -73,19 +74,21 @@ redirect_from:
 </div>
 
 # News
+<span class='anchor' id='-news'></span>
 - *2025.7*: &nbsp;⭐ A summary of VLA+RL - [Awesome-VLA-RL](https://github.com/XiaoWei-i/Awesome-VLA-RL) - is available in Github.
-- *2025.5*: &nbsp;🎉 Our works [PORL](https://arxiv.org/abs/2505.16856) and [LIT](https://arxiv.org/abs/2503.10484v1) is available in arxiv.
+- *2025.5*: &nbsp;🎉 Our works [PORL](https://arxiv.org/abs/2505.16856) and [LIT](https://arxiv.org/abs/2503.10484v1) are available in arxiv.
 - *2024.11*: &nbsp;🎉 Homepage has been set up.
 - *2024.09*: &nbsp;🎉 Our paper [PT4Rec](https://link.springer.com/article/10.1007/s10994-024-06658-0) is accepted by ACML2024 and Machine Learning Journal.
 
 # Publications 
+<span class='anchor' id='-publications'></span>
 ## Embodied AI & RL
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/porl.png' alt="sym" height="200px" width=auto></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Efficient Online RL Fine-Tuning with Offline Pre-trained Policy Only**
 
-**Wei Xiao***, Jiacheng Liu, Zifeng Zhuang, Runze Suo, [Shangke Lyu](https://scholar.google.com/citations?user=3_DtxJ8AAAAJ)†, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
+**Wei Xiao***, Jiacheng Liu, [Zifeng Zhuang](https://scholar.google.com/citations?user=-KANvNMAAAAJ&hl=zh-CN), Runze Suo, [Shangke Lyu](https://scholar.google.com/citations?user=3_DtxJ8AAAAJ)†, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
 - [**Arxiv**](https://arxiv.org/abs/2505.16856)
 </div>
 </div>
@@ -127,7 +130,7 @@ Renjie Wang*, Shangke Lyu†, Xin Lang, **Wei Xiao**, [Donglin Wang](https://sch
 
 **Uncertainty-Aware Planning: Mitigating Exploration Loss in Model-Based Reinforcement Learning**
 
-Runze Suo*, Zifeng Zhuang, [Shangke Lyu](https://scholar.google.com/citations?user=3_DtxJ8AAAAJ), Xiao He, **Wei Xiao**, Ting Wang, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
+Runze Suo*, [Zifeng Zhuang](https://scholar.google.com/citations?user=-KANvNMAAAAJ&hl=zh-CN), [Shangke Lyu](https://scholar.google.com/citations?user=3_DtxJ8AAAAJ), Xiao He, **Wei Xiao**, Ting Wang, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
 </div>
 </div>
 
@@ -158,7 +161,8 @@ Runze Suo*, Zifeng Zhuang, [Shangke Lyu](https://scholar.google.com/citations?us
 </div>
 </div>
 
-# 🎖 Honors and Awards
+# Honors and Awards
+<span class='anchor' id='-honors-and-awards'></span>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/projects/kaiwu.png' alt="sym" height="200px" width=auto></div></div>
 <div class='paper-box-text' markdown="1">
 
