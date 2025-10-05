@@ -75,20 +75,21 @@ redirect_from:
 
 # News
 <span class='anchor' id='-news'></span>
-- *2025.7*: &nbsp;⭐ A summary of VLA+RL - [Awesome-VLA-RL](https://github.com/XiaoWei-i/Awesome-VLA-RL) - is available in Github.
+- *2025.7*: &nbsp;⭐ A summary of VLA+RL - [Awesome-VLA-RL](https://github.com/OpenHelix-Team/Awesome-VLA-RL) - is available in Github.
 - *2025.5*: &nbsp;🎉 Our works [PORL](https://arxiv.org/abs/2505.16856) and [LIT](https://arxiv.org/abs/2503.10484v1) are available in arxiv.
 - *2024.11*: &nbsp;🎉 Homepage has been set up.
 - *2024.09*: &nbsp;🎉 Our paper [PT4Rec](https://link.springer.com/article/10.1007/s10994-024-06658-0) is accepted by ACML2024 and Machine Learning Journal.
 
 # Publications 
 <span class='anchor' id='-publications'></span>
+
 ## Embodied AI & RL
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/porl.png' alt="sym" height="200px" width=auto></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Efficient Online RL Fine-Tuning with Offline Pre-trained Policy Only**
 
-**Wei Xiao***, Jiacheng Liu, [Zifeng Zhuang](https://scholar.google.com/citations?user=-KANvNMAAAAJ&hl=zh-CN), Runze Suo, [Shangke Lyu](https://scholar.google.com/citations?user=3_DtxJ8AAAAJ)†, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
+**Wei Xiao***, [Jiacheng Liu](https://jiachengliu3.github.io/), [Zifeng Zhuang](https://scholar.google.com/citations?user=-KANvNMAAAAJ&hl=zh-CN), Runze Suo, [Shangke Lyu](https://lsk-robot.github.io/)†, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
 - [**Arxiv**](https://arxiv.org/abs/2505.16856)
 </div>
 </div>
@@ -99,20 +100,32 @@ redirect_from:
 
 **Learning Robotic Policy with Imagined Transition: Mitigating the Trade-off between Robustness and Optimality**
 
-**Wei Xiao***, [Shangke Lyu](https://scholar.google.com/citations?user=3_DtxJ8AAAAJ)†, [Zhefei Gong](https://zhefeigong.github.io/), Renjie Wang, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
+**Wei Xiao***, [Shangke Lyu](https://lsk-robot.github.io/)†, [Zhefei Gong](https://zhefeigong.github.io/), Renjie Wang, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
 - [**Arxiv**](https://arxiv.org/abs/2503.10484v1) | 
 [**Video**](https://www.bilibili.com/video/BV1wbQDYmENv/)
 </div>
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/trajbooster.png' alt="sym" height="200px" width=auto></div></div>
+<div class='paper-box-text' markdown="1">
+
+**TrajBooster: Boosting Humanoid Whole-Body Manipulation via Trajectory-Centric Learning**
+
+[Jiacheng Liu](https://jiachengliu3.github.io/)*, [Pengxiang Ding](https://dingpx.github.io/)*, Qihang Zhou, Yuxuan Wu, Da Huang, Zimian Peng, Wei Xiao, Weinan Zhang, Lixin Yang, Cewu Lu†, Donglin Wang†
+- [**Arxiv**](https://arxiv.org/pdf/2509.11839) | 
+[**Code**](https://github.com/jiachengliu3/OpenTrajBooster).
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/to.png' alt="sym" height="200px" width=auto></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Integrating Trajectory Optimization and Reinforcement Learning for Quadrupedal Jumping with Terrain-Adaptive Landing**
 
-Renjie Wang*, Shangke Lyu†, Xin Lang, **Wei Xiao**, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
-- The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025).
+Renjie Wang*, [Shangke Lyu](https://lsk-robot.github.io/)†, Xin Lang, **Wei Xiao**, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
+- The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025 Oral).
+- [**Arxiv**](https://arxiv.org/pdf/2509.12776)
 </div>
 </div>
 
@@ -121,7 +134,7 @@ Renjie Wang*, Shangke Lyu†, Xin Lang, **Wei Xiao**, [Donglin Wang](https://sch
 
 **Robust Online Residual Refinement via Koopman-Guided Dynamics Modeling**
 
-[Zhefei Gong](https://zhefeigong.github.io/), [Shangke Lyu](https://scholar.google.com/citations?user=3_DtxJ8AAAAJ), [Pengxiang Ding](https://dingpx.github.io/), **Wei Xiao**, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
+[Zhefei Gong](https://zhefeigong.github.io/), [Shangke Lyu](https://lsk-robot.github.io/), [Pengxiang Ding](https://dingpx.github.io/), **Wei Xiao**, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
 </div>
 </div>
 
@@ -130,7 +143,7 @@ Renjie Wang*, Shangke Lyu†, Xin Lang, **Wei Xiao**, [Donglin Wang](https://sch
 
 **Uncertainty-Aware Planning: Mitigating Exploration Loss in Model-Based Reinforcement Learning**
 
-Runze Suo*, [Zifeng Zhuang](https://scholar.google.com/citations?user=-KANvNMAAAAJ&hl=zh-CN), [Shangke Lyu](https://scholar.google.com/citations?user=3_DtxJ8AAAAJ), Xiao He, **Wei Xiao**, Ting Wang, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
+Runze Suo*, [Zifeng Zhuang](https://scholar.google.com/citations?user=-KANvNMAAAAJ&hl=zh-CN), [Shangke Lyu](https://lsk-robot.github.io/), Xiao He, **Wei Xiao**, Ting Wang, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
 </div>
 </div>
 
@@ -199,7 +212,7 @@ Team: 南强至善- **Wei Xiao***, Tianhao Hu, Yuhang Liu, Jincai Luo†
 </div>
 </div>
 
-## Visitors
+# Visitors
 <div style="text-align:center; margin: auto; width: 28%;">
 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=uv7I6l6Tw7u_u34GssyddVANareB9fV10yJt7Bw0q80"></script>
 </div>
