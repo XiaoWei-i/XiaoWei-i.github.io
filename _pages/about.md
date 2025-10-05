@@ -107,7 +107,7 @@ redirect_from:
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/trajbooster.png' alt="sym" height="200px" width=auto></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/trajbooster.gif' alt="sym" height="200px" width=auto></div></div>
 <div class='paper-box-text' markdown="1">
 
 **TrajBooster: Boosting Humanoid Whole-Body Manipulation via Trajectory-Centric Learning**
