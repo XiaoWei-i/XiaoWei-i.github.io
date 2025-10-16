@@ -132,20 +132,6 @@ Renjie Wang*, [Shangke Lyu](https://lsk-robot.github.io/)†, Xin Lang, **Wei Xi
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/korr.png' alt="sym" height="200px" width=auto></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Robust Online Residual Refinement via Koopman-Guided Dynamics Modeling**
-
-[Zhefei Gong](https://zhefeigong.github.io/), [Shangke Lyu](https://lsk-robot.github.io/), [Pengxiang Ding](https://dingpx.github.io/), **Wei Xiao**, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/uap.png' alt="sym" height="200px" width=auto></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Uncertainty-Aware Planning: Mitigating Exploration Loss in Model-Based Reinforcement Learning**
-
-Runze Suo*, [Zifeng Zhuang](https://scholar.google.com/citations?user=-KANvNMAAAAJ&hl=zh-CN), [Shangke Lyu](https://lsk-robot.github.io/), Xiao He, **Wei Xiao**, Ting Wang, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
-</div>
-</div>
 
 
 ## Recommender System
