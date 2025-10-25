@@ -129,9 +129,6 @@ Renjie Wang*, [Shangke Lyu](https://lsk-robot.github.io/)†, Xin Lang, **Wei Xi
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/korr.png' alt="sym" height="200px" width=auto></div></div>
-<div class='paper-box-text' markdown="1">
-
 
 
 ## Recommender System
