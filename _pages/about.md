@@ -40,11 +40,15 @@ redirect_from:
   <span style="flex:1;">
   My research goal is to build end-to-end general robotic system that surpasses human abilities. I think <strong>reinforcement learning</strong> and <strong>a scalable learning paradigm</strong> (e.g. World Model, Unsupervised/Self-supervised Learning) that do not mainly rely on human prior (e.g. teleoperation) are necessary for it.
 
+  </span>
+</div>
 
-  I'm currently focusing on reinforcement learning of robotic foundation model (VLA) and interning at [XPENG Robotics](https://www.xpeng.com).
-  
+<div style="display: flex; align-items: center; margin-bottom: 0.5em;">
+  <span style="flex:1;">
+  I'm currently focusing on reinforcement learning of robotic foundation model (VLA) and interning at <a href="https://www.xpeng.com" target="_blank">XPENG Robotics</a>.
   
   Please drop me an email if you are interested in my research or just want to chat! Email: <strong>xiaowei2002103@foxmail.com</strong>
+
   </span>
 </div>
 
