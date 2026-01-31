@@ -26,13 +26,10 @@ redirect_from:
 
 <div style="display: flex; align-items: center; margin-bottom: 0.5em;">
   <span style="flex:1;">
-    Hi! I'm <strong>Wei Xiao (肖巍)</strong>, currently working with <a href="https://yaomarkmu.github.io/" target="_blank">Yao (Mark) Mu</a> in <a href="https://scalelab-sjtu.github.io/" target="_blank">ScaleLab@SJTU</a>. Previously, I was a Research Assistant at 
-    <a href="https://milab.westlake.edu.cn/index.html" target="_blank">MiLab</a>, 
-    <a href="https://www.westlake.edu.cn/" target="_blank"><strong>Westlake University</strong></a> 
-    advised by 
-    <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN" target="_blank">Donglin Wang</a>.
+    Hi! I'm <strong>Wei Xiao (肖巍)</strong>. I will join <a href="https://www.fudan.edu.cn/" target="_blank">Fudan University</a> & <a href="https://www.sii.edu.cn" target="_blank">Shanghai Innovation Institute</a> as a PhD student advised by <a href="https://lzrobots.github.io" target="_blank">Li Zhang</a> this fall. I am also collaborating with <a href="https://yaomarkmu.github.io/" target="_blank">Yao (Mark) Mu</a>. Previously, I gained valuable research experience in reinforcement learning and embodied intelligence at <a href="https://scalelab-sjtu.github.io/" target="_blank">ScaleLab@SJTU</a> and
+    <a href="https://milab.westlake.edu.cn/index.html" target="_blank">MiLab@Westlake</a>.
     I got my B.Eng in Automation from 
-    <a href="https://www.xmu.edu.cn/" target="_blank"><strong>Xiamen University</strong></a> 
+    <a href="https://www.xmu.edu.cn/" target="_blank">Xiamen University</a> 
     advised by 
     <a href="https://scholar.google.com/citations?user=yLQpYYYAAAAJ" target="_blank">Qifeng Zhou</a>.
   </span>
@@ -41,40 +38,19 @@ redirect_from:
 
 <div style="display: flex; align-items: center; margin-bottom: 0.5em;">
   <span style="flex:1;">
-  I am looking for research collaborations and a PhD position starting from <strong>2026 Fall</strong>.
+  My research goal is to build end-to-end general robotic system that surpasses human abilities. I think <strong>reinforcement learning</strong> and <strong>a scalable learning paradigm</strong> (e.g. World Model, Unsupervised/Self-supervised Learning) that do not mainly rely on human prior (e.g. teleoperation) are necessary for it.
+
+
+  I'm currently focusing on reinforcement learning of robotic foundation model (VLA) and interning at [XPENG Robotics](https://www.xpeng.com).
+  
+  
   Please drop me an email if you are interested in my research or just want to chat! Email: <strong>xiaowei2002103@foxmail.com</strong>
   </span>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 0.5em;">
-  <span style="flex:1;">
-  I like <strong>Robotic Learning</strong> (Embodied AI?), <strong>Reinforcement Learning</strong>, and <strong>World Model</strong>. I am focusing on building end-to-end robots with <strong>Universality, Generalizability, and Robustness</strong>, utilizing learning‑based methods that scale with data and computation. I am currently passionate about <strong>Manipulation and Locomotion</strong> tasks.
-  </span>
-</div>
-
-# Experience
-<span class='anchor' id='-experience'></span>
-
-<div style="display: flex; align-items: center; margin-bottom: 0.5em;">
-  <span style="flex:1;">
-    - <em>2021.7-2024.7</em>: Bachelor of Engineering - Major in Automation, Xiamen University<br>
-    - <em>2020.9-2021.7</em>: Major in Biology, Xiamen University
-  </span>
-  <img src="images/xmu.jpg" alt="Xiamen University" style="height:64px; margin-left:10px;">
-</div>
-
-<div style="display: flex; align-items: center; margin-bottom: 0.5em;">
-  <span style="flex:1;">- <em>2024.7-2025.6</em>: Research Assistant in Machine Intelligence Lab (MiLAB), Westlake University</span>
-  <img src="images/westlake.png" alt="Westlake University" style="height:64px; margin-left:10px;">
-</div>
-
-<div style="display: flex; align-items: center; margin-bottom: 0.5em;">
-  <span style="flex:1;">- <em>2025.6-Now</em>: Research Intern in Spatial Cognition and Robotic Automative Learning Laboratory (ScaleLAB), Shanghai Jiao Tong University</span>
-  <img src="images/sjtu.png" alt="Shanghai Jiao Tong University" style="height:70px; margin-left:10px;">
-</div>
-
 # News
 <span class='anchor' id='-news'></span>
+- *2026.1*: &nbsp;🎉 [KORR](https://arxiv.org/abs/2509.12562) and [TrajBooster](https://arxiv.org/pdf/2509.11839) are accepted by ICRA2026, congrats to Jeffrey and Jiacheng！
 - *2025.7*: &nbsp;⭐ A summary of VLA+RL - [Awesome-VLA-RL](https://github.com/OpenHelix-Team/Awesome-VLA-RL) - is available in Github.
 - *2025.5*: &nbsp;🎉 Our works [PORL](https://arxiv.org/abs/2505.16856) and [LIT](https://arxiv.org/abs/2503.10484v1) are available in arxiv.
 - *2024.11*: &nbsp;🎉 Homepage has been set up.
@@ -106,6 +82,17 @@ redirect_from:
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/korr.png' alt="sym" height="200px" width=auto></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Robust Online Residual Refinement via Koopman-Guided Dynamics Modeling**
+
+[Zhefei Gong](https://zhefeigong.github.io/), [Shangke Lyu](https://lsk-robot.github.io/), [Pengxiang Ding](https://dingpx.github.io/), **Wei Xiao**, [Donglin Wang](https://scholar.google.com/citations?user=-fo6wdwAAAAJ&hl=zh-CN)†
+- 2026 IEEE International Conference on Robotics and Automation (ICRA 2026).
+- [**Arxiv**](https://arxiv.org/abs/2509.12562)
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/trajbooster.gif' alt="sym" height="200px" width=auto></div></div>
 <div class='paper-box-text' markdown="1">
@@ -113,6 +100,7 @@ redirect_from:
 **TrajBooster: Boosting Humanoid Whole-Body Manipulation via Trajectory-Centric Learning**
 
 [Jiacheng Liu](https://jiachengliu3.github.io/)*, [Pengxiang Ding](https://dingpx.github.io/)*, Qihang Zhou, Yuxuan Wu, Da Huang, Zimian Peng, **Wei Xiao**, Weinan Zhang, Lixin Yang, Cewu Lu†, Donglin Wang†
+- 2026 IEEE International Conference on Robotics and Automation (ICRA 2026).
 - [**Arxiv**](https://arxiv.org/pdf/2509.11839) | 
 [**Code**](https://github.com/jiachengliu3/OpenTrajBooster).
 </div>
