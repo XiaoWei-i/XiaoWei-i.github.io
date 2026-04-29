@@ -1,31 +1,34 @@
-// Homepage: publication rows (flex: image left, text right), anchors, photo wall, sidebar icons
+// Homepage: publication rows — CSS Grid left teaser / right text (Lucy-style).
+// Use 36em breakpoint: 48em only fires at full viewport width; with Hydejack sidebar,
+// many “desktop” windows are still < 48em and looked like a vertical stack.
 
 #_main .pub-entry,
 main .pub-entry,
-article .pub-entry {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+article .pub-entry,
+article.page .pub-entry {
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 1.25rem;
   margin-bottom: 2.5rem;
+  align-items: start;
+
+  @media (min-width: 36em) {
+    grid-template-columns: minmax(0, 300px) minmax(0, 1fr);
+    column-gap: 2rem;
+    row-gap: 0.25rem;
+  }
 
   &:last-child {
     margin-bottom: 0;
   }
 
-  @media (min-width: 48em) {
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 1.25rem 2rem;
-  }
-
   .pubteaser {
-    flex: 0 0 auto;
-    align-self: center;
+    justify-self: center;
     text-align: center;
+    min-width: 0;
 
-    @media (min-width: 48em) {
-      align-self: flex-start;
+    @media (min-width: 36em) {
+      justify-self: start;
       text-align: left;
     }
 
@@ -45,7 +48,6 @@ article .pub-entry {
   }
 
   .pub-body {
-    flex: 1 1 0;
     min-width: 0;
     overflow-wrap: anywhere;
     word-break: break-word;
@@ -82,7 +84,7 @@ article .pub-entry {
     }
   }
 
-  @media (max-width: 47.99em) {
+  @media (max-width: 35.99em) {
     .pubteaser img {
       width: 100%;
       max-width: 300px;
@@ -92,11 +94,12 @@ article .pub-entry {
   }
 }
 
-// Desktop: override Hydejack `.content img` so wide paper figures stay in the left column
-@media (min-width: 48em) {
+// Two-column layout: keep teaser width bounded vs Hydejack `.content img`
+@media (min-width: 36em) {
   #_main .pub-entry .pubteaser img,
   main .pub-entry .pubteaser img,
-  article .pub-entry .pubteaser img {
+  article .pub-entry .pubteaser img,
+  article.page .pub-entry .pubteaser img {
     width: 300px !important;
     max-width: 100% !important;
     height: auto !important;
