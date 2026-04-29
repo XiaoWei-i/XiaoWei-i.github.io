@@ -1,55 +1,77 @@
-// Homepage publication cards and anchors (ported from former Academic Pages theme)
+// Homepage: Lucy-style publication rows (floated teaser + text), anchors, photo wall, sidebar icons
 
-// Hydejack content can style imgs broadly; use high specificity + no intrinsic width attrs on <img>.
-#_main .paper-box,
-main .paper-box,
-article .paper-box {
-  display: grid !important;
-  gap: 1.25rem 1.5rem;
-  align-items: start;
-  border-bottom: 1px solid #efefef;
-  padding: 2em 0;
-  grid-template-columns: 1fr;
-  isolation: isolate;
+// Hydejack main is #_main; keep fallbacks for layout variants.
+#_main .pub-entry,
+main .pub-entry,
+article .pub-entry {
+  clear: both;
+  margin-bottom: 2.5rem;
+  overflow: hidden;
 
-  @media (min-width: 48em) {
-    grid-template-columns: minmax(0, 36%) minmax(0, 1fr);
+  &:last-child {
+    margin-bottom: 0;
   }
 
-  .paper-box-image {
-    position: relative;
-    min-width: 0 !important;
-    max-width: 100%;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+  .pubteaser {
+    clear: both;
 
-    > div {
-      min-width: 0;
-      max-width: 100%;
-      width: 100%;
+    a {
+      float: left;
+      margin-right: 2em;
+      margin-bottom: 0.75rem;
+      display: block;
+      line-height: 0;
     }
 
     img {
-      box-sizing: border-box;
-      width: 100% !important;
-      max-width: 100% !important;
-      height: auto !important;
-      max-height: 200px !important;
-      object-fit: contain !important;
-      box-shadow: 3px 3px 6px #888;
+      width: 300px;
+      max-width: 100%;
+      height: auto;
       display: block;
-      margin: 0 auto;
+      box-sizing: border-box;
     }
   }
 
-  .paper-box-text {
-    min-width: 0 !important;
-    max-width: 100%;
-    overflow-wrap: anywhere;
-    word-break: break-word;
+  h3.pub-title {
+    margin: 0 0 0.35rem;
+    font-size: 1.2em;
+    line-height: 1.45;
+    font-family: var(--font-family-heading);
+    font-weight: var(--font-weight-heading);
+  }
+
+  .pub-text {
+    margin-top: 0;
+
+    > p:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .pub-desc {
+    margin: 0.5rem 0 0;
+    color: var(--gray-text, #666);
+    font-size: 0.95em;
+    line-height: 1.55;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 47.99em) {
+    .pubteaser a {
+      float: none;
+      margin-right: 0;
+      text-align: center;
+    }
+
+    .pubteaser img {
+      width: 100%;
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
 
@@ -62,17 +84,6 @@ $scroll_offset: 2em;
   width: 0;
   height: $scroll_offset;
   margin-top: -$scroll_offset;
-}
-
-.badge {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  position: absolute;
-  margin-top: 0.5em;
-  margin-left: -0.5em;
-  color: #fff;
-  background-color: #00369f;
-  font-size: 0.8em;
 }
 
 .photo-wall-wide {
@@ -111,20 +122,4 @@ $scroll_offset: 2em;
   font-size: 1.15em;
   line-height: 1;
   vertical-align: -0.05em;
-}
-
-// Xiaohongshu (no FA brand): simple mark in sidebar social row
-.sidebar-social .xhs-icon {
-  display: inline-flex;
-  width: 1.15em;
-  height: 1.15em;
-  align-items: center;
-  justify-content: center;
-  vertical-align: middle;
-}
-
-.sidebar-social .xhs-icon svg {
-  width: 100%;
-  height: 100%;
-  display: block;
 }
