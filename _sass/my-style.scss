@@ -1,51 +1,41 @@
 // Homepage publication cards and anchors (ported from former Academic Pages theme)
 
+// Grid layout avoids flex min-width:auto overlap (image intrinsics vs text column).
 .paper-box {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  gap: 1.25rem 1.5rem;
+  align-items: start;
   border-bottom: 1px solid #efefef;
   padding: 2em 0;
+  grid-template-columns: 1fr;
+
+  @media (min-width: 48em) {
+    grid-template-columns: minmax(0, 34%) minmax(0, 1fr);
+  }
 
   .paper-box-image {
     position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    min-width: 0;
     width: 100%;
-    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 
     img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
       max-height: 200px;
-      max-width: 400px;
+      object-fit: contain;
       box-shadow: 3px 3px 6px #888;
-      object-fit: cover;
+      display: block;
     }
   }
 
   .paper-box-text {
-    max-width: 100%;
-    order: 1;
-  }
-
-  @media (min-width: 48em) {
-    .paper-box-image {
-      justify-content: center;
-      align-items: center;
-      max-height: 200px;
-      min-width: 200px;
-      max-width: 40%;
-      order: 1;
-    }
-
-    .paper-box-text {
-      justify-content: flex-start;
-      padding-left: 2em;
-      max-width: 60%;
-      order: 2;
-    }
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 }
 
@@ -69,20 +59,6 @@ $scroll_offset: 2em;
   color: #fff;
   background-color: #00369f;
   font-size: 0.8em;
-}
-
-.photo-wall-banner {
-  width: 100%;
-  margin-bottom: 2em;
-  overflow: hidden;
-  box-shadow: 0 2px 12px #eee;
-}
-
-.photo-wall-banner img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  display: block;
 }
 
 .photo-wall-wide {

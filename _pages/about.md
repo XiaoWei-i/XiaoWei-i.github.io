@@ -9,10 +9,6 @@ redirect_from:
   - /about.html
 ---
 
-<div class="photo-wall-banner">
-  <img src="{{ '/images/cover.jpg' | relative_url }}" alt="Cover">
-</div>
-
 # About Me
 <span class='anchor' id='about-me'></span>
 
