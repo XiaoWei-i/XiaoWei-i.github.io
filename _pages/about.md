@@ -52,7 +52,7 @@ redirect_from:
 <span class='anchor' id='-publications'></span>
 
 ## Embodied AI & RL
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/porl.png' alt="sym" height="200px" width=auto></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/porl.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Efficient Online RL Fine-Tuning with Offline Pre-trained Policy Only**
@@ -63,7 +63,7 @@ redirect_from:
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/lit.png' alt="sym" height="200px" width=auto></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/lit.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Learning Robotic Policy with Imagined Transition: Mitigating the Trade-off between Robustness and Optimality**
@@ -74,7 +74,7 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/korr.png' alt="sym" height="200px" width=auto></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/korr.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Robust Online Residual Refinement via Koopman-Guided Dynamics Modeling**
@@ -86,7 +86,7 @@ redirect_from:
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/trajbooster.gif' alt="sym" height="200px" width=auto></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/trajbooster.gif' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **TrajBooster: Boosting Humanoid Whole-Body Manipulation via Trajectory-Centric Learning**
@@ -98,7 +98,7 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/to.png' alt="sym" height="200px" width=auto></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/to.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Integrating Trajectory Optimization and Reinforcement Learning for Quadrupedal Jumping with Terrain-Adaptive Landing**
@@ -112,7 +112,7 @@ Renjie Wang*, [Shangke Lyu](https://lsk-robot.github.io/)†, Xin Lang, **Wei Xi
 
 
 ## Recommender System
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/ss4rec.png' alt="sym" height="200px" width=auto></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/ss4rec.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Continuous-Time Sequential Recommendation with State Space Models**
@@ -125,7 +125,7 @@ Renjie Wang*, [Shangke Lyu](https://lsk-robot.github.io/)†, Xin Lang, **Wei Xi
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/pt4rec.png' alt="sym" height="200px" width=auto></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/papers/pt4rec.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations**
@@ -139,7 +139,7 @@ Renjie Wang*, [Shangke Lyu](https://lsk-robot.github.io/)†, Xin Lang, **Wei Xi
 
 # Honors and Awards
 <span class='anchor' id='-honors-and-awards'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/projects/kaiwu.png' alt="sym" height="200px" width=auto></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/projects/kaiwu.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Tencent Kaiwu Reinforcement Learning Competition**
@@ -151,7 +151,7 @@ Team: 南强至善- **Wei Xiao***, Yifang Lin, Jinyang Lai, Huaming Xu, Zejie Ji
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/gif/car.gif' alt="sym" height="200px" width=auto></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/gif/car.gif' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **The 17th National Smart Car Competition for University Students**
@@ -165,7 +165,7 @@ Team: 南强至善- **Wei Xiao***, Tianhao Hu, Yuhang Liu, Jincai Luo†
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='awards/awards.png' alt="sym" height="200px" width=auto></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='awards/awards.png' alt="sym"></div></div>
 <div class='paper-box-text' markdown="1">
 - The 13th Mathorcup Mathematical Modelling Competition, Third prize.
 - Huawei Software Elite Challenge, Third Prize.

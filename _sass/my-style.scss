@@ -1,39 +1,53 @@
 // Homepage publication cards and anchors (ported from former Academic Pages theme)
 
-// Grid layout avoids flex min-width:auto overlap (image intrinsics vs text column).
-.paper-box {
-  display: grid;
+// Hydejack content can style imgs broadly; use high specificity + no intrinsic width attrs on <img>.
+#_main .paper-box,
+main .paper-box,
+article .paper-box {
+  display: grid !important;
   gap: 1.25rem 1.5rem;
   align-items: start;
   border-bottom: 1px solid #efefef;
   padding: 2em 0;
   grid-template-columns: 1fr;
+  isolation: isolate;
 
   @media (min-width: 48em) {
-    grid-template-columns: minmax(0, 34%) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 36%) minmax(0, 1fr);
   }
 
   .paper-box-image {
     position: relative;
-    min-width: 0;
+    min-width: 0 !important;
+    max-width: 100%;
     width: 100%;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 
-    img {
-      width: 100%;
+    > div {
+      min-width: 0;
       max-width: 100%;
-      height: auto;
-      max-height: 200px;
-      object-fit: contain;
+      width: 100%;
+    }
+
+    img {
+      box-sizing: border-box;
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+      max-height: 200px !important;
+      object-fit: contain !important;
       box-shadow: 3px 3px 6px #888;
       display: block;
+      margin: 0 auto;
     }
   }
 
   .paper-box-text {
-    min-width: 0;
+    min-width: 0 !important;
+    max-width: 100%;
     overflow-wrap: anywhere;
     word-break: break-word;
   }
@@ -84,4 +98,33 @@ $scroll_offset: 2em;
   object-fit: cover;
   box-shadow: 0 2px 8px #ccc;
   flex-shrink: 0;
+}
+
+// Academicons + Font Awesome: match Hydejack sidebar icon size
+.sidebar-social .ai {
+  font-size: 1.15em;
+  line-height: 1;
+  vertical-align: -0.05em;
+}
+
+.sidebar-social .fa-brands {
+  font-size: 1.15em;
+  line-height: 1;
+  vertical-align: -0.05em;
+}
+
+// Xiaohongshu (no FA brand): simple mark in sidebar social row
+.sidebar-social .xhs-icon {
+  display: inline-flex;
+  width: 1.15em;
+  height: 1.15em;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.sidebar-social .xhs-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
 }

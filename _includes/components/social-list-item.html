@@ -1,0 +1,57 @@
+{% assign platform = include.platform | downcase %}
+{% assign username = include.username %}
+
+{% if username.size > 0 %}
+  {% assign data_social = site.data.social[platform] %}
+
+  {% if data_social %}
+    {% assign name = data_social.name | default: include.platform %}
+    {% assign icon = data_social.icon | default: "icon-link" %}
+    {% assign app = data_social.append %}
+    {% assign prep = data_social.prepend %}
+  {% else %}
+    {% assign name = include.platform %}
+    {% assign icon = "icon-link" %}
+    {% assign app = nil %}
+    {% assign prep = nil %}
+    {% if platform == "email" %}
+      {% assign name = "Email" %}
+      {% assign icon = "icon-mail" %}
+      {% assign prep = "mailto:" %}
+    {% elsif platform == "twitter" %}
+      {% assign name = "Twitter" %}
+      {% assign icon = "icon-twitter" %}
+      {% assign prep = "https://twitter.com/" %}
+    {% elsif platform == "github" %}
+      {% assign name = "GitHub" %}
+      {% assign icon = "icon-github" %}
+      {% assign prep = "https://github.com/" %}
+    {% endif %}
+  {% endif %}
+
+  {% if username contains "//" or username contains "mailto:" %}
+    {% assign url = username %}
+  {% else %}
+    {% capture url %}{{ prep }}{{ username }}{{ app }}{% endcapture %}
+  {% endif %}
+
+  <li>
+    <a href="{{ url }}" title="{{ name }}" class="no-mark-external">
+      {% if platform == "google-scholar" %}
+        <span class="ai ai-google-scholar"></span>
+      {% elsif platform == "zhihu" %}
+        <i class="fa-brands fa-zhihu" aria-hidden="true"></i>
+      {% elsif platform == "xiaohongshu" %}
+        <span class="xhs-icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true">
+            <rect width="24" height="24" rx="5" fill="#ff2442"/>
+            <path fill="#fff" d="M7 7h10v2H7V7zm0 4h10v2H7v-2zm0 4h7v2H7v-2z" opacity=".95"/>
+          </svg>
+        </span>
+      {% else %}
+        <span class="{{ icon }}"></span>
+      {% endif %}
+      <span class="sr-only">{{ name }}</span>
+    </a>
+  </li>
+{% endif %}

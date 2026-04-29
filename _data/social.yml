@@ -261,3 +261,15 @@ discord:
 mastodon:
   name: Mastodon
   icon: icon-mastodon
+
+google-scholar:
+  name: Google Scholar
+  icon: icon-google
+
+zhihu:
+  name: Zhihu
+  icon: icon-link
+
+xiaohongshu:
+  name: Xiaohongshu
+  icon: icon-link

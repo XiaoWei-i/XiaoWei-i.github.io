@@ -2,7 +2,7 @@
 # Restart Jekyll after editing this file.
 
 lang: en
-title: "Wei Xiao's Homepage"
+title: "Wei Xiao"
 tagline: "I like Slow Science"
 description: >
   Wei Xiao (肖巍) — reinforcement learning, embodied AI, and robotic foundation models.
@@ -26,6 +26,9 @@ author:
   social:
     email: xiaowei2002103@foxmail.com
     github: XiaoWei-i
+    google-scholar: "https://scholar.google.cz/citations?user=kvcrdlUAAAAJ&hl=zh-CN"
+    zhihu: "https://www.zhihu.com/people/xiao-wei-7-38"
+    xiaohongshu: "https://www.xiaohongshu.com/user/profile/6062aa97000000000100857a"
 
 menu:
   - title: About Me
@@ -36,12 +39,6 @@ menu:
     url: /#-publications
   - title: Honors and Awards
     url: /#-honors-and-awards
-  - title: Google Scholar
-    url: "https://scholar.google.cz/citations?user=kvcrdlUAAAAJ&hl=zh-CN"
-  - title: Zhihu
-    url: "https://www.zhihu.com/people/xiao-wei-7-38"
-  - title: Xiaohongshu
-    url: "https://www.xiaohongshu.com/user/profile/6062aa97000000000100857a"
 
 copyright: "© 2024–2026 Wei Xiao. All rights reserved."
 
