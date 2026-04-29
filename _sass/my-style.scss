@@ -1,24 +1,35 @@
-// Homepage: Lucy-style publication rows (floated teaser + text), anchors, photo wall, sidebar icons
+// Homepage: publication rows (flex: image left, text right), anchors, photo wall, sidebar icons
 
-// Hydejack main is #_main; keep fallbacks for layout variants.
 #_main .pub-entry,
 main .pub-entry,
 article .pub-entry {
-  clear: both;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1.25rem;
   margin-bottom: 2.5rem;
-  overflow: hidden;
 
   &:last-child {
     margin-bottom: 0;
   }
 
+  @media (min-width: 48em) {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.25rem 2rem;
+  }
+
   .pubteaser {
-    clear: both;
+    flex: 0 0 auto;
+    align-self: center;
+    text-align: center;
+
+    @media (min-width: 48em) {
+      align-self: flex-start;
+      text-align: left;
+    }
 
     a {
-      float: left;
-      margin-right: 2em;
-      margin-bottom: 0.75rem;
       display: block;
       line-height: 0;
     }
@@ -29,7 +40,19 @@ article .pub-entry {
       height: auto;
       display: block;
       box-sizing: border-box;
+      object-fit: contain;
     }
+  }
+
+  .pub-body {
+    flex: 1 1 0;
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  .pub-body > h3.pub-title:first-child {
+    margin-top: 0;
   }
 
   h3.pub-title {
@@ -60,18 +83,24 @@ article .pub-entry {
   }
 
   @media (max-width: 47.99em) {
-    .pubteaser a {
-      float: none;
-      margin-right: 0;
-      text-align: center;
-    }
-
     .pubteaser img {
       width: 100%;
       max-width: 300px;
       margin-left: auto;
       margin-right: auto;
     }
+  }
+}
+
+// Desktop: override Hydejack `.content img` so wide paper figures stay in the left column
+@media (min-width: 48em) {
+  #_main .pub-entry .pubteaser img,
+  main .pub-entry .pubteaser img,
+  article .pub-entry .pubteaser img {
+    width: 300px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: contain;
   }
 }
 
