@@ -1,0 +1,14 @@
+# Primary author — must align with `author` in `_config.yml`
+author1:
+  name: "Wei Xiao (肖巍)"
+  email: "xiaowei2002103@foxmail.com"
+  about: |
+    PhD student (incoming) at Fudan University & Shanghai Innovation Institute.
+    Research interests: reinforcement learning, embodied AI, and robotic foundation models.
+
+  picture:
+    path: /images/head.jpg
+
+  social:
+    email: xiaowei2002103@foxmail.com
+    github: XiaoWei-i

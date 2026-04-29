@@ -1,71 +1,134 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# Site — Hydejack (remote_theme) + personal content
+# Restart Jekyll after editing this file.
 
-# Site Settings
-title                    : "Wei Xiao's Homepage"
-description              : "I like Slow Science"
-repository               : "XiaoWei-i/XiaoWei-i.github.io"
-google_scholar_stats_use_cdn : true
+lang: en
+title: "Wei Xiao's Homepage"
+tagline: "I like Slow Science"
+description: >
+  Wei Xiao (肖巍) — reinforcement learning, embodied AI, and robotic foundation models.
 
-# google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+keywords: [robotics, reinforcement learning, embodied AI, Wei Xiao]
 
-# SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+repository: "XiaoWei-i/XiaoWei-i.github.io"
+google_scholar_stats_use_cdn: true
 
-# Site Author
+google_analytics_id:
+google_site_verification:
+bing_site_verification:
+baidu_site_verification:
+
+logo: /images/head.jpg
+
 author:
-  name             : "Wei Xiao-肖巍"
-  avatar           : "images/head.jpg"
-  bio              : "Xiamen University"
-  location         : "Hangzhou, China"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.cz/citations?user=kvcrdlUAAAAJ&hl=zh-CN"
-  email            : "xiaowei2002103@foxmail.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "XiaoWei-i" # e.g., "github username"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-  zhihu            : "xiao-wei-7-38"
-  xiaohongshu      : "https://www.xiaohongshu.com/user/profile/6062aa97000000000100857a"
+  name: "Wei Xiao (肖巍)"
+  email: xiaowei2002103@foxmail.com
+  picture: /images/head.jpg
+  social:
+    email: xiaowei2002103@foxmail.com
+    github: XiaoWei-i
 
+menu:
+  - title: About Me
+    url: /#about-me
+  - title: News
+    url: /#-news
+  - title: Publications
+    url: /#-publications
+  - title: Honors and Awards
+    url: /#-honors-and-awards
+  - title: Google Scholar
+    url: "https://scholar.google.cz/citations?user=kvcrdlUAAAAJ&hl=zh-CN"
+  - title: Zhihu
+    url: "https://www.zhihu.com/people/xiao-wei-7-38"
+  - title: Xiaohongshu
+    url: "https://www.xiaohongshu.com/user/profile/6062aa97000000000100857a"
 
-# Reading Files
+copyright: "© 2024–2026 Wei Xiao. All rights reserved."
+
+permalink: /:categories/:year-:month-:day-:title/
+timezone: Asia/Shanghai
+
+remote_theme: hydecorp/hydejack@v9.2.1
+
+accent_image: /images/cover.jpg
+accent_color: rgb(79, 177, 186)
+theme_color: rgb(25, 55, 71)
+
+google_fonts: Roboto+Slab:700|Noto+Sans:400,400i,700,700i
+font: Noto Sans, Helvetica, Arial, sans-serif
+font_heading: Roboto Slab, Helvetica, Arial, sans-serif
+
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      sitemap: true
+  - scope:
+      type: projects
+    values:
+      seo:
+        type: WebPage
+  - scope:
+      type: featured_categories
+    values:
+      seo:
+        type: WebPage
+  - scope:
+      type: featured_tags
+    values:
+      seo:
+        type: WebPage
+
+collections:
+  featured_categories:
+    permalink: /:name/
+    output: true
+  featured_tags:
+    permalink: /tag-:name/
+    output: true
+  projects:
+    permalink: /projects/:path/
+    output: true
+
+hydejack:
+  post_addons: [about, related, random]
+  project_addons: [about, other]
+  no_mark_external: false
+  no_push_state: false
+  no_drawer: false
+  no_navbar: false
+  no_search: true
+  no_inline_css: false
+  no_page_style: false
+  no_break_layout: true
+  no_toc: false
+  no_third_column: false
+  no_large_headings: false
+  no_structured_data: false
+  no_theme_color: false
+  no_breadcrumbs: true
+  use_lsi: false
+  cookies_banner: false
+  advertise: false
+  hide_dates: false
+  hide_last_modified: false
+  dark_mode:
+    always: false
+    dynamic: true
+    icon: true
+  offline:
+    enabled: false
+
 include:
   - .htaccess
   - _pages
   - files
+
 exclude:
   - docs
   - google_scholar_crawler
@@ -82,10 +145,8 @@ exclude:
   - Gruntfile.js
   - LICENSE
   - README
+  - README.md
   - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
   - config
   - gulpfile.js
   - log
@@ -93,22 +154,21 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - vendor/bundle
+
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
+
+encoding: utf-8
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
-# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -118,48 +178,25 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  math_engine: mathjax
+  footnote_backlink: "↩︎"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
-# Defaults
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: default
-      author_profile: true
-
-
-# Sass/SCSS
 sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
-
-# Outputting
-permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
+  - jekyll-default-layout
   - jekyll-feed
+  - jekyll-include-cache
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-remote-theme
+  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
 
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+relative_links:
+  collections: true

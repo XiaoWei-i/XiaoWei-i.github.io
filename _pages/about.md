@@ -1,24 +1,16 @@
 ---
-permalink: /
+layout: home
 title: ""
-excerpt: ""
-author_profile: true
-redirect_from: 
+description: ""
+hide_description: true
+permalink: /
+redirect_from:
   - /about/
   - /about.html
 ---
 
-
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-
 <div class="photo-wall-banner">
-  <img src="images/cover.jpg" alt="Cover">
+  <img src="{{ '/images/cover.jpg' | relative_url }}" alt="Cover">
 </div>
 
 # About Me
