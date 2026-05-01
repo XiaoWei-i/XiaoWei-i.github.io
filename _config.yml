@@ -95,7 +95,7 @@ collections:
 hydejack:
   post_addons: [about, related, random]
   project_addons: [about, other]
-  no_mark_external: false
+  no_mark_external: true
   no_push_state: false
   no_drawer: false
   no_navbar: false

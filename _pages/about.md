@@ -60,7 +60,6 @@ redirect_from:
 <strong>Wei Xiao</strong>*, <a href="https://jiachengliu3.github.io/">Jiacheng Liu</a>, <a href="https://scholar.google.com/citations?user=-KANvNMAAAAJ&amp;hl=zh-CN">Zifeng Zhuang</a>, Runze Suo, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>†, <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&amp;hl=zh-CN">Donglin Wang</a>†<br />
 <em>Preprint</em><br />
 <a href="https://arxiv.org/abs/2505.16856">arxiv</a>
-<p class="pub-desc"><small>Online RL fine-tuning using only an offline pre-trained policy.</small></p>
 </div>
 </div>
 
@@ -71,7 +70,6 @@ redirect_from:
 <strong>Wei Xiao</strong>*, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>†, <a href="https://zhefeigong.github.io/">Zhefei Gong</a>, Renjie Wang, <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&amp;hl=zh-CN">Donglin Wang</a>†<br />
 <em>Preprint</em><br />
 <a href="https://arxiv.org/abs/2503.10484v1">arxiv</a> / <a href="https://www.bilibili.com/video/BV1wbQDYmENv/">video</a>
-<p class="pub-desc"><small>Imagined transitions to balance robustness and optimality in robotic policies.</small></p>
 </div>
 </div>
 
@@ -82,7 +80,6 @@ redirect_from:
 <a href="https://zhefeigong.github.io/">Zhefei Gong</a>, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>, <a href="https://dingpx.github.io/">Pengxiang Ding</a>, <strong>Wei Xiao</strong>, <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&amp;hl=zh-CN">Donglin Wang</a>†<br />
 <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026<br />
 <a href="https://arxiv.org/abs/2509.12562">arxiv</a>
-<p class="pub-desc"><small>Koopman-guided modeling for robust online residual refinement.</small></p>
 </div>
 </div>
 
@@ -93,7 +90,6 @@ redirect_from:
 <a href="https://jiachengliu3.github.io/">Jiacheng Liu</a>*, <a href="https://dingpx.github.io/">Pengxiang Ding</a>*, Qihang Zhou, Yuxuan Wu, Da Huang, Zimian Peng, <strong>Wei Xiao</strong>, Weinan Zhang, Lixin Yang, Cewu Lu†, Donglin Wang†<br />
 <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026<br />
 <a href="https://arxiv.org/pdf/2509.11839">arxiv</a> / <a href="https://github.com/jiachengliu3/OpenTrajBooster">code</a>
-<p class="pub-desc"><small>Trajectory-centric learning for humanoid whole-body manipulation.</small></p>
 </div>
 </div>
 
@@ -104,7 +100,6 @@ redirect_from:
 Renjie Wang*, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>†, Xin Lang, <strong>Wei Xiao</strong>, <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&amp;hl=zh-CN">Donglin Wang</a>†<br />
 <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2025 (Oral)<br />
 <a href="https://arxiv.org/pdf/2509.12776">arxiv</a>
-<p class="pub-desc"><small>Joint trajectory optimization and RL for quadruped jumping with terrain-aware landing.</small></p>
 </div>
 </div>
 
@@ -117,7 +112,6 @@ Renjie Wang*, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>†, Xin Lan
 <strong>Wei Xiao</strong>*, Huiying Wang*, <a href="https://scholar.google.com/citations?user=yLQpYYYAAAAJ">Qifeng Zhou</a>†, <a href="https://kesyren.github.io/">Qing Wang</a><br />
 <em>Preprint</em><br />
 <a href="https://arxiv.org/pdf/2502.08132">arxiv</a> / <a href="https://github.com/XiaoWei-i/SS4Rec">code</a>
-<p class="pub-desc"><small>State-space models for continuous-time sequential recommendation.</small></p>
 </div>
 </div>
 
@@ -128,7 +122,6 @@ Renjie Wang*, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>†, Xin Lan
 <strong>Wei Xiao</strong>*, <a href="https://scholar.google.com/citations?user=yLQpYYYAAAAJ">Qifeng Zhou</a>†<br />
 <em>Asian Conference on Machine Learning (ACML)</em>, 2024; <em>Machine Learning</em> journal<br />
 <a href="https://link.springer.com/article/10.1007/s10994-024-06658-0">paper</a> / <a href="https://github.com/XiaoWei-i/PT4Rec">code</a>
-<p class="pub-desc"><small>Prompt tuning for graph contrastive learning in recommendation.</small></p>
 </div>
 </div>
 
@@ -139,7 +132,7 @@ Renjie Wang*, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>†, Xin Lan
 <div class="pubteaser"><a href="https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002"><img src="images/projects/kaiwu.png" alt="Kaiwu competition" loading="lazy" /></a></div>
 <div class="pub-body">
 <h3 class="pub-title">Tencent Kaiwu Reinforcement Learning Competition</h3><br />
-Team: 南强至善 — <strong>Wei Xiao</strong>*, Yifang Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, <a href="https://yunlongliu.github.io/">Yunlong Liu</a>†<br />
+Team: 南强至善 — <strong>Wei Xiao</strong>*, Yifan Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, <a href="https://yunlongliu.github.io/">Yunlong Liu</a>†<br />
 Fourth Place (with Bonus ￥20,000) — <em>2023.12</em><br />
 <a href="https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002">leaderboard</a>
 </div>

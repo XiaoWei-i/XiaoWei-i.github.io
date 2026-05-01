@@ -1,3 +1,47 @@
+// Section titles on homepage: slightly smaller than Hydejack defaults
+#_main.content article.page h1 {
+  font-size: 1.65rem;
+  line-height: 1.32;
+
+  @media screen and (min-width: 42em) {
+    font-size: 1.75rem;
+  }
+
+  @media screen and (min-width: 86em) {
+    font-size: 1.95rem;
+  }
+
+  // Hydejack “large headings” on very wide viewports — keep homepage modest
+  @media screen and (min-width: 104rem) {
+    body:not(.no-large-headings) & {
+      font-size: 2rem !important;
+      line-height: 1.28 !important;
+      width: auto !important;
+    }
+  }
+
+  @media screen and (min-width: 124em) {
+    body:not(.no-large-headings) & {
+      font-size: 2.1rem !important;
+    }
+  }
+}
+
+#_main.content article.page h2 {
+  font-size: 1.22rem;
+  line-height: 1.38;
+  margin-top: 2.75rem;
+  margin-bottom: 0.65rem;
+}
+
+// Remove Hydejack external-link icomoon ::after (square-arrow) in main content
+#_main.content a.external::after,
+#_main.content a[href*="://"]:not(.no-mark-external):not(.no-mark)::after,
+#_main.content a.no-push-state:not(.no-mark-external):not(.no-mark)::after {
+  content: none !important;
+  display: none !important;
+}
+
 // Homepage: publication rows — CSS Grid left teaser / right text (Lucy-style).
 // Use 36em breakpoint: 48em only fires at full viewport width; with Hydejack sidebar,
 // many “desktop” windows are still < 48em and looked like a vertical stack.
@@ -70,17 +114,6 @@ article.page .pub-entry {
 
     > p:first-child {
       margin-top: 0;
-    }
-  }
-
-  .pub-desc {
-    margin: 0.5rem 0 0;
-    color: var(--gray-text, #666);
-    font-size: 0.95em;
-    line-height: 1.55;
-
-    p {
-      margin: 0;
     }
   }
 
