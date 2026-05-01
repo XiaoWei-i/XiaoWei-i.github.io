@@ -105,7 +105,7 @@ hydejack:
   no_break_layout: true
   no_toc: false
   no_third_column: false
-  no_large_headings: false
+  no_large_headings: true
   no_structured_data: false
   no_theme_color: false
   no_breadcrumbs: true

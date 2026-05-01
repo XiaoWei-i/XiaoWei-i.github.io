@@ -1,43 +1,29 @@
 // Section titles on homepage: slightly smaller than Hydejack defaults
 #_main.content article.page h1 {
-  font-size: 1.65rem;
-  line-height: 1.32;
+  font-size: 1.55rem !important;
+  line-height: 1.3 !important;
+  width: auto !important;
 
   @media screen and (min-width: 42em) {
-    font-size: 1.75rem;
+    font-size: 1.68rem !important;
   }
 
   @media screen and (min-width: 86em) {
-    font-size: 1.95rem;
-  }
-
-  // Hydejack “large headings” on very wide viewports — keep homepage modest
-  @media screen and (min-width: 104rem) {
-    body:not(.no-large-headings) & {
-      font-size: 2rem !important;
-      line-height: 1.28 !important;
-      width: auto !important;
-    }
-  }
-
-  @media screen and (min-width: 124em) {
-    body:not(.no-large-headings) & {
-      font-size: 2.1rem !important;
-    }
+    font-size: 1.82rem !important;
   }
 }
 
 #_main.content article.page h2 {
-  font-size: 1.22rem;
-  line-height: 1.38;
-  margin-top: 2.75rem;
-  margin-bottom: 0.65rem;
+  font-size: 1.12rem !important;
+  line-height: 1.35 !important;
+  margin-top: 2.35rem;
+  margin-bottom: 0.6rem;
 }
 
-// Remove Hydejack external-link icomoon ::after (square-arrow) in main content
-#_main.content a.external::after,
-#_main.content a[href*="://"]:not(.no-mark-external):not(.no-mark)::after,
-#_main.content a.no-push-state:not(.no-mark-external):not(.no-mark)::after {
+// Remove Hydejack external-link icomoon ::after (square-arrow)
+a.external::after,
+a[href*="://"]:not(.no-mark-external):not(.no-mark)::after,
+a.no-push-state:not(.no-mark-external):not(.no-mark)::after {
   content: none !important;
   display: none !important;
 }
