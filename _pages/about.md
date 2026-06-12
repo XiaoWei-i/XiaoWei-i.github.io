@@ -95,7 +95,7 @@ redirect_from:
 </div>
 
 <div class="pub-entry">
-<div class="pubteaser"><a href="https://arxiv.org/pdf/2509.12776"><img src="images/papers/to.png" alt="Publication teaser" loading="lazy" /></a></div>
+<div class="pubteaser"><a href="https://arxiv.org/pdf/2509.12776"><img src="images/papers/iros2025_cover.jpg" alt="Publication teaser" loading="lazy" /></a></div>
 <div class="pub-body">
 <h3 class="pub-title">Integrating Trajectory Optimization and Reinforcement Learning for Quadrupedal Jumping with Terrain-Adaptive Landing</h3><br />
 Renjie Wang*, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>†, Xin Lang, <strong>Wei Xiao</strong>, <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&amp;hl=zh-CN">Donglin Wang</a>†<br />
