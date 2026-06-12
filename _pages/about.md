@@ -42,6 +42,7 @@ redirect_from:
 
 # News
 <span class='anchor' id='-news'></span>
+- *2026.5*: &nbsp;🎉 [LIT](https://xiaowei-i.github.io/lit-locomotion/) is accepted by CASE 2026!
 - *2026.1*: &nbsp;🎉 [KORR](https://arxiv.org/abs/2509.12562) and [TrajBooster](https://arxiv.org/pdf/2509.11839) are accepted by ICRA2026, congrats to Jeffrey and Jiacheng！
 - *2025.7*: &nbsp;⭐ A summary of VLA+RL - [Awesome-VLA-RL](https://github.com/OpenHelix-Team/Awesome-VLA-RL) - is available in Github.
 - *2025.5*: &nbsp;🎉 Our works [PORL](https://arxiv.org/abs/2505.16856) and [LIT](https://arxiv.org/abs/2503.10484v1) are available in arxiv.
@@ -68,8 +69,8 @@ redirect_from:
 <div class="pub-body">
 <h3 class="pub-title">Learning Robotic Policy with Imagined Transition: Mitigating the Trade-off between Robustness and Optimality</h3><br />
 <strong>Wei Xiao</strong>*, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>†, <a href="https://zhefeigong.github.io/">Zhefei Gong</a>, Renjie Wang, <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&amp;hl=zh-CN">Donglin Wang</a>†<br />
-<em>Preprint</em><br />
-<a href="https://arxiv.org/abs/2503.10484v1">arxiv</a> / <a href="https://www.bilibili.com/video/BV1wbQDYmENv/">video</a>
+<em>IEEE International Conference on Automation Science and Engineering (CASE)</em>, 2026<br />
+<a href="https://arxiv.org/abs/2503.10484v1">arxiv</a> / <a href="https://xiaowei-i.github.io/lit-locomotion/">project</a> / <a href="https://www.bilibili.com/video/BV1wbQDYmENv/">video</a>
 </div>
 </div>
 
@@ -79,7 +80,7 @@ redirect_from:
 <h3 class="pub-title">Robust Online Residual Refinement via Koopman-Guided Dynamics Modeling</h3><br />
 <a href="https://zhefeigong.github.io/">Zhefei Gong</a>, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>, <a href="https://dingpx.github.io/">Pengxiang Ding</a>, <strong>Wei Xiao</strong>, <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&amp;hl=zh-CN">Donglin Wang</a>†<br />
 <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026<br />
-<a href="https://arxiv.org/abs/2509.12562">arxiv</a>
+<a href="https://arxiv.org/abs/2509.12562">arxiv</a> / <a href="https://zhefeigong.github.io/korr-robot/">project</a> / <a href="https://github.com/ZhefeiGong/korr">code</a>
 </div>
 </div>
 
@@ -89,7 +90,7 @@ redirect_from:
 <h3 class="pub-title">TrajBooster: Boosting Humanoid Whole-Body Manipulation via Trajectory-Centric Learning</h3><br />
 <a href="https://jiachengliu3.github.io/">Jiacheng Liu</a>*, <a href="https://dingpx.github.io/">Pengxiang Ding</a>*, Qihang Zhou, Yuxuan Wu, Da Huang, Zimian Peng, <strong>Wei Xiao</strong>, Weinan Zhang, Lixin Yang, Cewu Lu†, Donglin Wang†<br />
 <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026<br />
-<a href="https://arxiv.org/pdf/2509.11839">arxiv</a> / <a href="https://github.com/jiachengliu3/OpenTrajBooster">code</a>
+<a href="https://arxiv.org/pdf/2509.11839">arxiv</a> / <a href="https://jiachengliu3.github.io/TrajBooster/">project</a> / <a href="https://github.com/jiachengliu3/OpenTrajBooster">code</a>
 </div>
 </div>
 
