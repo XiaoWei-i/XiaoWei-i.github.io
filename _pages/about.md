@@ -78,7 +78,7 @@ redirect_from:
 </div>
 
 <div class="pub-entry">
-<div class="pubteaser"><a href="https://arxiv.org/abs/2505.16856"><img src="images/papers/porl.png" alt="Publication teaser" loading="lazy" /></a></div>
+<div class="pubteaser"><a href="https://arxiv.org/abs/2505.16856"><img src="images/papers/porl-white.png" alt="Publication teaser" loading="lazy" /></a></div>
 <div class="pub-body">
 <h3 class="pub-title">Efficient Online RL Fine-Tuning with Offline Pre-trained Policy Only</h3><br />
 <strong>Wei Xiao</strong>*, <a href="https://jiachengliu3.github.io/">Jiacheng Liu</a>, <a href="https://scholar.google.com/citations?user=-KANvNMAAAAJ&amp;hl=zh-CN">Zifeng Zhuang</a>, Runze Suo, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>†, <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&amp;hl=zh-CN">Donglin Wang</a>†<br />
@@ -98,7 +98,7 @@ redirect_from:
 </div>
 
 <div class="pub-entry">
-<div class="pubteaser"><a href="https://arxiv.org/abs/2509.12562"><img src="images/papers/korr.png" alt="Publication teaser" loading="lazy" /></a></div>
+<div class="pubteaser"><a href="https://arxiv.org/abs/2509.12562"><img src="images/papers/korr-white.png" alt="Publication teaser" loading="lazy" /></a></div>
 <div class="pub-body">
 <h3 class="pub-title">Robust Online Residual Refinement via Koopman-Guided Dynamics Modeling</h3><br />
 <a href="https://zhefeigong.github.io/">Zhefei Gong</a>, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>, <a href="https://dingpx.github.io/">Pengxiang Ding</a>, <strong>Wei Xiao</strong>, <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&amp;hl=zh-CN">Donglin Wang</a>†<br />
@@ -140,7 +140,7 @@ Renjie Wang*, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>†, Xin Lan
 ## Recommender System
 
 <div class="pub-entry">
-<div class="pubteaser"><a href="https://arxiv.org/pdf/2502.08132"><img src="images/papers/ss4rec.png" alt="Publication teaser" loading="lazy" /></a></div>
+<div class="pubteaser"><a href="https://arxiv.org/pdf/2502.08132"><img src="images/papers/ss4rec-white.png" alt="Publication teaser" loading="lazy" /></a></div>
 <div class="pub-body">
 <h3 class="pub-title">Continuous-Time Sequential Recommendation with State Space Models</h3><br />
 <strong>Wei Xiao</strong>*, Huiying Wang*, <a href="https://scholar.google.com/citations?user=yLQpYYYAAAAJ">Qifeng Zhou</a>†, <a href="https://kesyren.github.io/">Qing Wang</a><br />
@@ -150,7 +150,7 @@ Renjie Wang*, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>†, Xin Lan
 </div>
 
 <div class="pub-entry">
-<div class="pubteaser"><a href="https://link.springer.com/article/10.1007/s10994-024-06658-0"><img src="images/papers/pt4rec.png" alt="Publication teaser" loading="lazy" /></a></div>
+<div class="pubteaser"><a href="https://link.springer.com/article/10.1007/s10994-024-06658-0"><img src="images/papers/pt4rec-white.png" alt="Publication teaser" loading="lazy" /></a></div>
 <div class="pub-body">
 <h3 class="pub-title">PT4Rec: A Universal Prompt-Tuning Framework for Graph Contrastive Learning-Based Recommendations</h3><br />
 <strong>Wei Xiao</strong>*, <a href="https://scholar.google.com/citations?user=yLQpYYYAAAAJ">Qifeng Zhou</a>†<br />
