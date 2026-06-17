@@ -28,6 +28,17 @@ a.no-push-state:not(.no-mark-external):not(.no-mark)::after {
   display: none !important;
 }
 
+.news-scroll {
+  max-height: 11.5rem;
+  overflow-y: auto;
+  padding-right: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.news-scroll ul {
+  margin-bottom: 0;
+}
+
 // Homepage: publication rows — CSS Grid left teaser / right text (Lucy-style).
 // Use 36em breakpoint: 48em only fires at full viewport width; with Hydejack sidebar,
 // many “desktop” windows are still < 48em and looked like a vertical stack.

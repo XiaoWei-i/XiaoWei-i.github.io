@@ -42,6 +42,8 @@ redirect_from:
 
 # News
 <span class='anchor' id='-news'></span>
+<div class="news-scroll" markdown="1">
+
 - *2026.6*: &nbsp;🎉 Our work [ROVE](https://arxiv.org/abs/2606.17011) is available in arxiv.
 - *2026.5*: &nbsp;🎉 [LIT](https://xiaowei-i.github.io/lit-locomotion/) is accepted by CASE 2026!
 - *2026.1*: &nbsp;🎉 [KORR](https://arxiv.org/abs/2509.12562) and [TrajBooster](https://arxiv.org/pdf/2509.11839) are accepted by ICRA2026, congrats to Jeffrey and Jiacheng！
@@ -49,6 +51,8 @@ redirect_from:
 - *2025.5*: &nbsp;🎉 Our works [PORL](https://arxiv.org/abs/2505.16856) and [LIT](https://arxiv.org/abs/2503.10484v1) are available in arxiv.
 - *2024.11*: &nbsp;🎉 Homepage has been set up.
 - *2024.09*: &nbsp;🎉 Our paper [PT4Rec](https://link.springer.com/article/10.1007/s10994-024-06658-0) is accepted by ACML2024 and Machine Learning Journal.
+
+</div>
 
 # Publications 
 <span class='anchor' id='-publications'></span>
@@ -181,6 +185,11 @@ The Second Prize in South Region — <em>2022.07</em><br />
 </div>
 </div>
 </div>
+
+# Academic Service
+<span class='anchor' id='-academic-service'></span>
+
+- Conference Reviewer: IEEE International Conference on Robotics and Automation (ICRA), Conference on Robot Learning (CoRL).
 
 # Visitors
 <div style="text-align:center; margin: auto; width: 28%;">
