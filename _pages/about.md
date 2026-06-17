@@ -108,7 +108,12 @@ redirect_from:
 </div>
 
 <div class="pub-entry">
-<div class="pubteaser"><a href="https://arxiv.org/pdf/2509.11839"><img src="images/papers/trajbooster.gif" alt="Publication teaser" loading="lazy" /></a></div>
+<div class="pubteaser">
+<a class="stacked-pubteaser" href="https://arxiv.org/pdf/2509.11839" aria-label="TrajBooster paper">
+<img src="images/papers/trajbooster-teaser.png" alt="TrajBooster teaser" loading="lazy" />
+<img src="images/papers/trajbooster.gif" alt="TrajBooster demo" loading="lazy" />
+</a>
+</div>
 <div class="pub-body">
 <h3 class="pub-title">TrajBooster: Boosting Humanoid Whole-Body Manipulation via Trajectory-Centric Learning</h3><br />
 <a href="https://jiachengliu3.github.io/">Jiacheng Liu</a>*, <a href="https://dingpx.github.io/">Pengxiang Ding</a>*, Qihang Zhou, Yuxuan Wu, Da Huang, Zimian Peng, <strong>Wei Xiao</strong>, Weinan Zhang, Lixin Yang, Cewu Lu†, Donglin Wang†<br />
@@ -118,7 +123,12 @@ redirect_from:
 </div>
 
 <div class="pub-entry">
-<div class="pubteaser"><a href="https://arxiv.org/pdf/2509.12776"><img src="images/papers/iros2025_cover.jpg" alt="Publication teaser" loading="lazy" /></a></div>
+<div class="pubteaser">
+<a class="stacked-pubteaser" href="https://arxiv.org/pdf/2509.12776" aria-label="Quadrupedal jumping paper">
+<img src="images/papers/iros2025_cover.jpg" alt="Quadrupedal jumping method" loading="lazy" />
+<img src="images/papers/iros2025-results.png" alt="Quadrupedal jumping result sequence" loading="lazy" />
+</a>
+</div>
 <div class="pub-body">
 <h3 class="pub-title">Integrating Trajectory Optimization and Reinforcement Learning for Quadrupedal Jumping with Terrain-Adaptive Landing</h3><br />
 Renjie Wang*, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>†, Xin Lang, <strong>Wei Xiao</strong>, <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&amp;hl=zh-CN">Donglin Wang</a>†<br />

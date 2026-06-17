@@ -76,6 +76,8 @@ article.page .pub-entry {
     a {
       display: block;
       line-height: 0;
+      background: #fff;
+      border-radius: 4px;
     }
 
     img {
@@ -85,6 +87,7 @@ article.page .pub-entry {
       display: block;
       box-sizing: border-box;
       object-fit: contain;
+      background: #fff;
     }
 
     .rove-pubteaser {
@@ -125,6 +128,7 @@ article.page .pub-entry {
     width: 300px;
     max-width: 100%;
     line-height: 0;
+    background: #fff;
   }
 
   .pubteaser .rove-pubteaser > img {
@@ -149,6 +153,27 @@ article.page .pub-entry {
     aspect-ratio: 4 / 3;
     object-fit: cover;
     display: block;
+    border-radius: 4px;
+  }
+
+  .pubteaser .stacked-pubteaser {
+    display: grid !important;
+    grid-template-columns: 1fr;
+    gap: 4px;
+    width: 300px;
+    max-width: 100%;
+    line-height: 0;
+    background: #fff;
+  }
+
+  .pubteaser .stacked-pubteaser > img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    display: block;
+    object-fit: contain;
+    background: #fff;
     border-radius: 4px;
   }
 
