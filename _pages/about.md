@@ -59,15 +59,15 @@ redirect_from:
 <div class="pubteaser">
 <a class="rove-pubteaser" href="https://xpeng-robotics.github.io/rove/" aria-label="ROVE project page">
 <img src="images/papers/rove-teaser.png" alt="ROVE teaser" loading="lazy" />
-<span class="rove-video-row">
+<div class="rove-video-row">
 <video src="images/papers/rove-recovery1.mp4" autoplay muted loop playsinline preload="metadata"></video>
 <video src="images/papers/rove-recovery2.mp4" autoplay muted loop playsinline preload="metadata"></video>
-</span>
+</div>
 </a>
 </div>
 <div class="pub-body">
 <h3 class="pub-title">ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning</h3><br />
-<strong>Wei Xiao</strong>*, Weiliang Tang*, <a href="https://geyuying.github.io/">Yuying Ge</a>†, <a href="https://scholar.google.com/citations?user=i35tdbMAAAAJ">Hui Zhou</a>, <a href="https://yaomarkmu.github.io/">Yao Mu</a>, <a href="https://lzrobots.github.io/">Li Zhang</a>, <a href="http://geyixiao.com/">Yixiao Ge</a><br />
+<strong>Wei Xiao</strong>*, <a href="https://cuhkwilliam.github.io/">Weiliang Tang</a>*, <a href="https://geyuying.github.io/">Yuying Ge</a>†, <a href="https://scholar.google.com/citations?user=i35tdbMAAAAJ">Hui Zhou</a>, <a href="https://yaomarkmu.github.io/">Yao Mu</a>, <a href="https://lzrobots.github.io/">Li Zhang</a>, <a href="http://geyixiao.com/">Yixiao Ge</a><br />
 <em>Preprint</em><br />
 <a href="https://arxiv.org/abs/2606.17011">arxiv</a> / <a href="https://xpeng-robotics.github.io/rove/">project</a>
 </div>

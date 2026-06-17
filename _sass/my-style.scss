@@ -107,6 +107,40 @@ article.page .pub-entry {
     }
   }
 
+  .pubteaser .rove-pubteaser {
+    display: grid !important;
+    grid-template-columns: 1fr;
+    gap: 4px;
+    width: 300px;
+    max-width: 100%;
+    line-height: 0;
+  }
+
+  .pubteaser .rove-pubteaser > img {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    display: block;
+  }
+
+  .pubteaser .rove-pubteaser > .rove-video-row {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 4px;
+    width: 100%;
+  }
+
+  .pubteaser .rove-pubteaser > .rove-video-row > video {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0;
+    height: auto !important;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+  }
+
   .pub-body {
     min-width: 0;
     overflow-wrap: anywhere;
