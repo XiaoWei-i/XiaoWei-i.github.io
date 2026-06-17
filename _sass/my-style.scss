@@ -75,6 +75,36 @@ article.page .pub-entry {
       box-sizing: border-box;
       object-fit: contain;
     }
+
+    .rove-pubteaser {
+      display: grid;
+      gap: 4px;
+      width: 300px;
+      max-width: 100%;
+      line-height: 0;
+    }
+
+    .rove-pubteaser img,
+    .rove-pubteaser video {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+      display: block;
+      box-sizing: border-box;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .rove-video-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px;
+    }
+
+    .rove-video-row video {
+      aspect-ratio: 4 / 3;
+      height: 100% !important;
+    }
   }
 
   .pub-body {
