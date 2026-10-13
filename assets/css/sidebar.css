@@ -1,0 +1,37 @@
+/* Hydejack reflects the completed drawer state in its `opened` attribute. */
+#_drawer .sidebar-sticky,
+#_drawer .sidebar-title h2,
+#_drawer .sidebar-nav,
+#_drawer .sidebar-nav a,
+#_drawer .sidebar-tagline {
+  font-family: var(--doc-font);
+}
+
+#_drawer .sidebar-tagline {
+  text-transform: none;
+}
+
+#_drawer .sidebar-tagline .slogan {
+  display: block;
+  white-space: nowrap;
+}
+
+#_drawer .sidebar-tagline .slogan-separator {
+  display: none;
+}
+
+#_drawer[opened] .sidebar-sticky {
+  width: max-content;
+  max-width: calc(100vw - 2rem);
+  padding-inline: 1rem;
+}
+
+#_drawer[opened] .sidebar-tagline {
+  white-space: nowrap;
+  font-size: clamp(11px, 3vw, 1rem);
+}
+
+#_drawer[opened] .sidebar-tagline .slogan,
+#_drawer[opened] .sidebar-tagline .slogan-separator {
+  display: inline;
+}
