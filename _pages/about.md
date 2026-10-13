@@ -18,13 +18,13 @@ redirect_from:
 </ul>
 </header>
 
-<p>Hi! I'm a PhD student at <a href="https://www.fudan.edu.cn/" target="_blank">Fudan University</a> &amp; <a href="https://www.sii.edu.cn/" target="_blank">Shanghai Innovation Institute</a> advised by <a href="https://lzrobots.github.io/" target="_blank">Li Zhang</a> this fall. I am also collaborating with <a href="https://yaomarkmu.github.io/" target="_blank">Yao (Mark) Mu</a> at <a href="https://scalelab-sjtu.github.io/" target="_blank">ScaleLab@SJTU</a>.</p>
+<p>Hi! I'm a PhD student at <a href="https://www.fudan.edu.cn/" target="_blank">Fudan University</a> and <a href="https://www.sii.edu.cn/" target="_blank">Shanghai Innovation Institute</a>, advised by <a href="https://lzrobots.github.io/" target="_blank">Li Zhang</a>. I also work with <a href="https://yaomarkmu.github.io/" target="_blank">Yao (Mark) Mu</a> at <a href="https://scalelab-sjtu.github.io/" target="_blank">ScaleLab@SJTU</a>.</p>
 
-<p>Previously, I gained wonderful research experience in reinforcement learning and embodied intelligence at <a href="https://www.shlab.org.cn/" target="_blank">ShanghaiAILab</a>, <a href="https://www.xpeng.com/" target="_blank">XPENG Robotics</a> and <a href="https://milab.westlake.edu.cn/index.html" target="_blank">MiLab@Westlake</a>. I got my B.Eng in Automation from <a href="https://www.xmu.edu.cn/" target="_blank">Xiamen University</a> advised by <a href="https://scholar.google.com/citations?user=yLQpYYYAAAAJ" target="_blank">Qifeng Zhou</a>.</p>
+<p>I've had the chance to work on reinforcement learning and embodied intelligence at <a href="https://www.shlab.org.cn/" target="_blank">Shanghai AI Lab</a>, <a href="https://www.xpeng.com/" target="_blank">XPENG Robotics</a>, and <a href="https://milab.westlake.edu.cn/index.html" target="_blank">MiLab@Westlake</a>. I earned my B.Eng. in Automation at <a href="https://www.xmu.edu.cn/" target="_blank">Xiamen University</a>, where I was advised by <a href="https://scholar.google.com/citations?user=yLQpYYYAAAAJ" target="_blank">Qifeng Zhou</a>.</p>
 
-<p>My research goal is to build end-to-end general robotic system that surpasses human abilities. I think <strong>reinforcement learning</strong> and <strong>a scalable learning paradigm</strong> (e.g. World Model, Unsupervised/Self-supervised Learning) that do not mainly rely on embodiment prior (e.g. teleoperation) are necessary for it.</p>
+<p>I want to build end-to-end, general-purpose robotic systems that can eventually surpass human capabilities. I'm especially excited about robots learning beyond what we can demonstrate. I believe <strong>reinforcement learning</strong> and <strong>scalable learning approaches</strong>, such as world models and unsupervised/self-supervised learning, are key to getting there with less reliance on teleoperation data.</p>
 
-<p class="contact-line">Please drop me an email if you are interested in my research, looking for collaboration or just want to chat!<br><a href="mailto:xiaowei2002103@foxmail.com">xiaowei2002103@foxmail.com</a></p>
+<p class="contact-line">Feel free to drop me an email if you're interested in my research, have a collaboration in mind, or just want to chat!<br><a href="mailto:xiaowei2002103@foxmail.com">xiaowei2002103@foxmail.com</a></p>
 
 <h2 id="-news">News</h2>
 <div class="news-scroll" role="region" aria-label="News updates" tabindex="0">
@@ -123,7 +123,7 @@ redirect_from:
 </div>
 </div>
 
-<p class="pub-category">Recommender System (During my undergraduate)</p>
+<p class="pub-category">Recommender Systems (Undergraduate Research)</p>
 
 <div class="pub-entry">
 <div class="pubteaser"><a href="https://arxiv.org/pdf/2502.08132"><img src="images/papers/ss4rec-white.png" alt="Publication teaser" loading="lazy" /></a></div>
