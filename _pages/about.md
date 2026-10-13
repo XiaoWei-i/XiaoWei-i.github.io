@@ -168,20 +168,6 @@ redirect_from:
 </div>
 </div>
 
-<div class="pub-entry">
-<div class="pubteaser"><a href="#-honors-and-awards"><img src="awards/awards.png" alt="Awards" loading="lazy" /></a></div>
-<div class="pub-body">
-<div class="pub-text" markdown="1">
-
-- The 13th Mathorcup Mathematical Modelling Competition, Third prize.
-- Huawei Software Elite Challenge, Third Prize.
-- National Mathematical Modelling Competition for College Students, Second Prize in Fujian Province.
-- National Algorithm Competition for College Students, Excellence Award.
-- and so on.
-</div>
-</div>
-</div>
-
 </div>
 
 <h2 id="-academic-service">Academic Service</h2>
