@@ -59,7 +59,7 @@ redirect_from:
 <h3 class="pub-title">ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning</h3>
 <p class="pub-authors"><strong>Wei Xiao</strong>*, <a href="https://cuhkwilliam.github.io/">Weiliang Tang</a>*, <a href="https://geyuying.github.io/">Yuying Ge</a>†, <a href="https://scholar.google.com/citations?user=i35tdbMAAAAJ">Hui Zhou</a>, <a href="https://yaomarkmu.github.io/">Yao Mu</a>, <a href="https://lzrobots.github.io/">Li Zhang</a>, <a href="http://geyixiao.com/">Yixiao Ge</a></p>
 <p class="pub-venue"><em>Preprint</em></p>
-<div class="pub-links"><a href="https://arxiv.org/abs/2606.17011">Paper</a> <a href="https://xpeng-robotics.github.io/rove/">Project</a> <a href="https://www.youtube.com/watch?v=iTzrdDHZjdM">Video</a></div>
+<div class="pub-links"><a href="https://arxiv.org/abs/2606.17011">Paper</a> <a href="https://xpeng-robotics.github.io/rove/">Project</a> <a href="https://www.youtube.com/watch?v=iTzrdDHZjdM">Video</a> <a href="https://mp.weixin.qq.com/s/D0VJ3CVd436TXNM7_w3sJA">Blog (zh)</a></div>
 </div>
 </div>
 
