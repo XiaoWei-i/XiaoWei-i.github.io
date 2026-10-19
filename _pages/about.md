@@ -64,12 +64,12 @@ redirect_from:
 </div>
 
 <div class="pub-entry">
-<div class="pubteaser"><a href="https://arxiv.org/abs/2505.16856"><img src="images/papers/porl-white.png" alt="Publication teaser" loading="lazy" /></a></div>
+<div class="pubteaser"><a href="/porl/"><img src="images/papers/porl-white.png" alt="PORL project overview" loading="lazy" /></a></div>
 <div class="pub-body">
 <h3 class="pub-title">Efficient Online RL Fine-Tuning with Offline Pre-trained Policy Only</h3>
 <p class="pub-authors"><strong>Wei Xiao</strong>*, <a href="https://jiachengliu3.github.io/">Jiacheng Liu</a>, <a href="https://scholar.google.com/citations?user=-KANvNMAAAAJ&amp;hl=zh-CN">Zifeng Zhuang</a>, Runze Suo, <a href="https://lsk-robot.github.io/">Shangke Lyu</a>†, <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&amp;hl=zh-CN">Donglin Wang</a>†</p>
 <p class="pub-venue"><em>Preprint</em></p>
-<div class="pub-links"><a href="https://arxiv.org/abs/2505.16856">Paper</a></div>
+<div class="pub-links"><a href="https://arxiv.org/abs/2505.16856">Paper</a> <a href="/porl/">Project</a></div>
 </div>
 </div>
 

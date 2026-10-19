@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>PORL | Efficient Online RL Fine-Tuning with Offline Pre-trained Policy Only</title>
+  <meta name="description" content="PORL fine-tunes a pre-trained policy through online reinforcement learning without an offline dataset or a pre-trained critic. Method, experiments, and paper resources.">
+  <link rel="canonical" href="https://xiaowei-i.github.io/porl/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PORL: Online RL Fine-Tuning with a Pre-trained Policy Only">
+  <meta property="og:description" content="Learn a fresh critic online, then fine-tune the policy. No offline dataset or pre-trained critic required.">
+  <meta property="og:url" content="https://xiaowei-i.github.io/porl/">
+  <meta property="og:image" content="https://xiaowei-i.github.io/images/papers/porl-white.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/images/favicon-32x32.png" type="image/png">
+  <link rel="stylesheet" href="/assets/css/project.css?v=20261020">
+  <script src="/assets/js/project.js?v=20261020" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="project-topbar">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Wei Xiao</a>
+      <span class="breadcrumb-divider" aria-hidden="true">/</span>
+      <a href="/#-publications">Research</a>
+      <span class="breadcrumb-divider" aria-hidden="true">/</span>
+      <span class="breadcrumb-current" aria-current="page">PORL</span>
+    </nav>
+    <a class="topbar-link" href="https://arxiv.org/abs/2505.16856">Read the paper ↗</a>
+  </header>
+
+  <main id="main" class="project-document">
+    <header>
+      <p class="project-kicker">PORL · Preprint · 2025</p>
+      <h1>Efficient Online RL Fine-Tuning with Offline Pre-trained Policy Only</h1>
+      <p class="project-authors">
+        <a href="/"><strong>Wei Xiao</strong></a>,
+        <a href="https://jiachengliu3.github.io/">Jiacheng Liu</a>,
+        <a href="https://scholar.google.com/citations?user=-KANvNMAAAAJ&amp;hl=zh-CN">Zifeng Zhuang</a>,
+        Runze Suo,
+        <a href="https://lsk-robot.github.io/">Shangke Lyu</a><sup>†</sup>,
+        <a href="https://scholar.google.com/citations?user=-fo6wdwAAAAJ&amp;hl=zh-CN">Donglin Wang</a><sup>†</sup>
+      </p>
+      <p class="project-affiliations">Westlake University</p>
+      <p class="author-notes"><sup>†</sup> Corresponding authors</p>
+      <nav class="project-resources" aria-label="Paper resources">
+        <a href="https://arxiv.org/abs/2505.16856">Paper ↗</a>
+        <a href="https://arxiv.org/pdf/2505.16856">PDF ↗</a>
+        <a href="#citation">BibTeX ↓</a>
+      </nav>
+      <aside class="project-summary" aria-label="Research summary">
+        <span class="summary-label">The idea</span>
+        <p>Keep the pre-trained policy. Learn a fresh critic from online interactions, then fine-tune both. No offline dataset or pre-trained critic is needed during fine-tuning.</p>
+      </aside>
+      <figure>
+        <a class="figure-link" href="/images/papers/porl-white.png" aria-label="View the PORL overview figure at full size">
+          <img class="paper-figure" src="/images/papers/porl-white.png" width="1600" height="764" alt="PORL first freezes the pre-trained policy and learns a critic from online data, then fine-tunes the actor and critic. The adjacent plot compares mean AntMaze performance.">
+        </a>
+        <figcaption>PORL's two-stage procedure and mean performance across AntMaze tasks. Figure 1 from the <a href="https://arxiv.org/abs/2505.16856">paper</a>.</figcaption>
+      </figure>
+    </header>
+
+    <nav class="project-outline" aria-label="On this page">
+      <a href="#overview">Overview</a>
+      <a href="#method">Method</a>
+      <a href="#results">Results</a>
+      <a href="#scope">Scope</a>
+      <a href="#citation">Citation</a>
+    </nav>
+
+    <section id="overview" class="project-section">
+      <h2>A policy is a useful starting point</h2>
+      <p>A pre-trained policy already knows something about the task. Online reinforcement learning should help it improve through interaction, even when the original training data and critic are no longer available. This is also the natural setting for behavior cloning, which produces a policy without a Q-function.</p>
+      <p>The critic makes this transition difficult. Updating a good policy against a randomly initialized critic can quickly undo what it has learned. Reusing an offline critic brings a different problem: its conservative value estimates can discourage the policy from exploring beyond the offline data.</p>
+      <p><strong>PORL</strong>, short for Policy-Only Reinforcement Learning Fine-Tuning, gives the critic a head start. It learns a new Q-function online while holding the policy fixed, then uses that critic to guide policy improvement.</p>
+    </section>
+
+    <section id="method" class="project-section">
+      <h2>Warm up the critic, then fine-tune</h2>
+      <ol class="method-steps">
+        <li><strong>Start with the policy.</strong> Load a policy trained with offline RL or behavior cloning. Initialize a fresh critic and an empty online replay buffer.</li>
+        <li><strong>Collect data and train the critic.</strong> Freeze the policy during a short pre-sampling stage. Choose its action with probability 1 − ε and a random action with probability ε. Train the critic on these new transitions while leaving the policy unchanged.</li>
+        <li><strong>Improve the policy with online RL.</strong> Continue collecting interactions and update both the actor and critic with Soft Actor-Critic. The original policy now has a critic trained on the environment it is interacting with.</li>
+      </ol>
+      <p>The experiments use <strong>ε = 0.1</strong>, an update-to-data ratio of <strong>16</strong>, and an ensemble of <strong>10 critics</strong>. Layer normalization and the ensemble help stabilize value estimates under frequent critic updates.</p>
+      <div class="table-scroll" tabindex="0" role="region" aria-label="Pre-sampling settings by benchmark">
+        <table>
+          <caption class="figure-caption">Pre-sampling budget used in the paper</caption>
+          <thead><tr><th scope="col">Benchmark</th><th scope="col">Online steps before actor updates</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">AntMaze</th><td>20,000</td></tr>
+            <tr><th scope="row">Adroit</th><td>5,000</td></tr>
+            <tr><th scope="row">Kitchen</th><td>20,000</td></tr>
+            <tr><th scope="row">RLBench</th><td>20,000</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="result-note">These steps count toward the online interaction budget. See Section 4 and Appendix 14.3 of the <a href="https://arxiv.org/pdf/2505.16856">paper</a> for the algorithm and full settings.</p>
+    </section>
+
+    <section id="results" class="project-section">
+      <h2>What the experiments show</h2>
+      <p>We evaluate PORL on AntMaze, Adroit, and Kitchen from D4RL, together with RLBench manipulation tasks. The comparisons ask both how methods behave with only a policy available and how PORL compares with methods that can use additional offline artifacts.</p>
+
+      <h3>Fine-tuning when only the policy is available</h3>
+      <p>Methods that normally reuse an offline critic can struggle when initialized with the policy alone. PORL improves on these policy-only adaptations in the reported AntMaze and Adroit experiments, showing the value of training a suitable critic before changing the actor.</p>
+      <figure>
+        <a class="figure-link" href="figures/policy-only.png" aria-label="View policy-only comparison at full size">
+          <img class="paper-figure" src="figures/policy-only.png" width="2000" height="569" alt="Learning curves comparing PORL, WSRL, Cal-QL, and IQL with policy-only initialization on two AntMaze tasks and Adroit Door and Pen." loading="lazy">
+        </a>
+        <figcaption>Policy-only initialization on AntMaze and Adroit. Figure 5 from the paper; curves show means over six random seeds with standard-deviation shading.</figcaption>
+      </figure>
+
+      <h3>Competitive with richer starting points</h3>
+      <p>Across the broader benchmark, PORL achieves competitive learning curves against offline-to-online and prior-assisted online RL methods. Those baselines may retain offline data, a pre-trained critic, or both; PORL uses only the pre-trained policy from the offline stage.</p>
+      <figure>
+        <a class="figure-link" href="figures/offline-to-online.png" aria-label="View offline-to-online comparison at full size">
+          <img class="paper-figure" src="figures/offline-to-online.png" width="2000" height="1054" alt="Eight learning-curve panels comparing PORL with CQL, Cal-QL, IQL, RLPD, and WSRL across AntMaze, Adroit, and Kitchen tasks." loading="lazy">
+        </a>
+        <figcaption>Comparisons with offline-to-online and prior-assisted online RL methods. Figure 6 from the paper; means and standard deviations over six random seeds. Available offline artifacts differ between methods.</figcaption>
+      </figure>
+
+      <h3>Starting from behavior cloning</h3>
+      <p>PORL also directly fine-tunes behavior-cloned policies, which have no pre-trained critic to reuse. Experiments on Adroit Pen and RLBench ReachTarget and Closebox show improvement from BC initialization. Closebox illustrates a setting where PORL makes progress while the SAC and JSRL baselines remain low.</p>
+      <figure>
+        <a class="figure-link" href="figures/behavior-cloning.png" aria-label="View behavior cloning comparison at full size">
+          <img class="paper-figure" src="figures/behavior-cloning.png" width="2000" height="525" alt="Learning curves comparing PORL, SAC, and JSRL when fine-tuning behavior-cloned policies on Adroit Pen, RLBench ReachTarget, and RLBench Closebox." loading="lazy">
+        </a>
+        <figcaption>Online RL from BC-trained policies. Figure 7 from the paper; dashed lines indicate the initial BC policy performance.</figcaption>
+      </figure>
+    </section>
+
+    <section id="scope" class="project-section">
+      <h2>Where this applies</h2>
+      <p>PORL assumes a useful pre-trained policy and access to an environment with reward feedback. It is less helpful when the starting policy is very weak. The paper studies MLP policies in simulation; extending the approach to diffusion or transformer policies and real-world online learning remains future work.</p>
+      <p class="result-note">The full paper includes ablations on pre-sampling, critic update frequency, and initialization quality, as well as discussion of limitations in Appendices 8 and 12.</p>
+    </section>
+
+    <section id="citation" class="project-section">
+      <div class="citation-heading">
+        <h2>Citation</h2>
+        <button class="copy-citation" type="button" data-copy-citation="bibtex" aria-describedby="copy-status">Copy BibTeX</button>
+      </div>
+      <pre><code id="bibtex">@misc{xiao2025efficientonlinerlfine,
+  title={Efficient Online RL Fine Tuning with Offline Pre-trained Policy Only},
+  author={Wei Xiao and Jiacheng Liu and Zifeng Zhuang and Runze Suo
+          and Shangke Lyu and Donglin Wang},
+  year={2025},
+  eprint={2505.16856},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2505.16856}
+}</code></pre>
+      <p id="copy-status" class="copy-status" aria-live="polite"></p>
+    </section>
+
+    <footer class="project-footer">
+      <a href="/">← Wei Xiao's homepage</a>
+      <a href="/lit-locomotion/">Related work: LIT ↗</a>
+    </footer>
+  </main>
+</body>
+</html>
