@@ -9,6 +9,30 @@
   padding-bottom: 5rem;
 }
 
+/* Center the document in the space beside Hydejack's persistent drawer. */
+@media screen and (min-width: 64em) {
+  #_main.content:has(> .home-document) {
+    --home-sidebar-width: var(--sidebar-width, 21rem);
+    max-width: none;
+    margin-left: var(--home-sidebar-width);
+    margin-right: 0;
+    padding-inline: clamp(1.5rem, 4vw, 4rem);
+  }
+
+  #_main.content:has(> .home-document) > footer.content {
+    max-width: none;
+    margin-left: var(--home-sidebar-width);
+    margin-right: 0;
+    padding-inline: inherit;
+  }
+}
+
+@media screen and (min-width: 104rem) {
+  #_main.content:has(> .home-document) {
+    --home-sidebar-width: calc(50% - var(--half-content, 31rem));
+  }
+}
+
 #_main.content article.page.home-document {
   --doc-ink: #37352f;
   --doc-muted: #78756e;
