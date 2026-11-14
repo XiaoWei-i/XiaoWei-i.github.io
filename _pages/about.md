@@ -29,9 +29,11 @@ redirect_from:
 <h2 id="-news">News</h2>
 <div class="news-scroll" role="region" aria-label="News updates" tabindex="0">
 <ul class="news-list">
+<li><time datetime="2026-09">2026.09</time><span>I started my PhD at <a href="https://www.fudan.edu.cn/">Fudan University</a> in <span class="news-location">Shanghai <svg class="city-icon" viewBox="0 0 28 24" aria-hidden="true"><path d="M2 22h24M8 22V9m0-6v2m0 8v3m0 4v2M6 22l1-7m2 0 1 7M18 22V7l5-3v18M18 9h5M18 12h5M18 15h5M18 18h5M13 22V12h3v10"/><circle cx="8" cy="7" r="2"/><circle cx="8" cy="17" r="3"/></svg></span>. Here's to a journey full of wonder and challenges!</span></li>
 <li><time datetime="2026-06">2026.06</time><span>Our work <a href="https://arxiv.org/abs/2606.17011">ROVE</a> is available on arXiv.</span></li>
 <li><time datetime="2026-05">2026.05</time><span><a href="https://xiaowei-i.github.io/lit-locomotion/">LIT</a> is accepted by CASE 2026!</span></li>
 <li><time datetime="2026-01">2026.01</time><span><a href="https://arxiv.org/abs/2509.12562">KORR</a> and <a href="https://arxiv.org/pdf/2509.11839">TrajBooster</a> are accepted by ICRA 2026, congrats to Jeffrey and Jiacheng!</span></li>
+<li><time datetime="2025-12">2025.12</time><span>I started my internship at <a href="https://www.xpeng.com/">XPENG Robotics</a> in <span class="news-location">Shenzhen <svg class="city-icon" viewBox="0 0 28 24" aria-hidden="true"><path d="M2 22h24M11 22V8l3-6 3 6v14M14 2v20M11 11h6M11 15h6M11 19h6M3 22V12h5v10M20 22V10h5v12M3 15h5M3 18h5M20 13h5M20 16h5M20 19h5"/></svg></span>, a city of dreams!</span></li>
 <li><time datetime="2025-07">2025.07</time><span>A summary of VLA+RL — <a href="https://github.com/OpenHelix-Team/Awesome-VLA-RL">Awesome-VLA-RL</a> — is available on GitHub.</span></li>
 <li><time datetime="2025-05">2025.05</time><span>Our works <a href="https://arxiv.org/abs/2505.16856">PORL</a> and <a href="https://arxiv.org/abs/2503.10484v1">LIT</a> are available on arXiv.</span></li>
 <li><time datetime="2024-11">2024.11</time><span>Homepage has been set up.</span></li>

@@ -25,6 +25,15 @@
   overflow-wrap: break-word;
 }
 
+#_main.content > .home-document + footer.content {
+  position: static;
+  width: auto;
+  max-width: 860px;
+  margin: 3rem auto 0;
+  padding: 0;
+  font-family: var(--doc-font);
+}
+
 body.dark-mode #_main.content article.page.home-document {
   --doc-ink: #e4e1da;
   --doc-muted: #aaa69e;
@@ -163,6 +172,24 @@ body.dark-mode #_main.content article.page.home-document {
   font-size: 13px;
   font-variant-numeric: tabular-nums;
   padding-top: 1px;
+}
+
+#_main.content .home-document .news-location {
+  white-space: nowrap;
+}
+
+#_main.content .home-document .city-icon {
+  display: inline-block;
+  width: 22px;
+  height: 20px;
+  margin-left: 2px;
+  vertical-align: -4px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.7;
 }
 
 #_main.content .home-document .news-scroll {
