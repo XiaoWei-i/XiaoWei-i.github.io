@@ -178,6 +178,13 @@ body.dark-mode #_main.content article.page.home-document {
   white-space: nowrap;
 }
 
+#_main.content .home-document .mars-icon {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  vertical-align: -3px;
+}
+
 #_main.content .home-document .city-icon {
   display: inline-block;
   width: 22px;
