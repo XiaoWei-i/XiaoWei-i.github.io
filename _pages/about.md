@@ -24,7 +24,7 @@ redirect_from:
 
 <p>I want to build end-to-end, general-purpose robotic systems that can do everything humans can and eventually surpass our capabilities, perhaps even building a civilization of their own on <span class="news-location">Mars <svg class="mars-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="#c76b4f"/><path d="M6 6c2 2 5 0 7 2s0 4 3 5M5 15c3-2 3 3 6 2M15 4c-1 2 2 3 4 3M15 19l2-1" fill="none" stroke="#efb18b" stroke-width="1.6" stroke-linecap="round"/></svg></span>. I'm especially excited about robots learning beyond what we can demonstrate. I believe <strong>reinforcement learning</strong> and <strong>scalable learning approaches</strong>, such as world models and unsupervised/self-supervised learning, are key to getting there with less reliance on teleoperation data.</p>
 
-<p class="contact-line">Feel free to drop me an email if you're interested in my research, have a collaboration in mind, or just want to chat!<br><a href="mailto:xiaowei2002103@foxmail.com">xiaowei2002103@foxmail.com</a></p>
+<p class="contact-line">Feel free to drop me an email if you're interested in my research, have a collaboration in mind, or just want to chat!<br><a href="mailto:xiaowei2002103@foxmail.com">xiaowei2002103@foxmail.com</a><br><span class="profile-links"><a href="https://scholar.google.com/citations?user=kvcrdlUAAAAJ&amp;hl=en" target="_blank">Google Scholar</a><a href="https://github.com/XiaoWei-i" target="_blank">GitHub</a></span></p>
 
 <h2 id="-news">News</h2>
 <div class="news-scroll" role="region" aria-label="News updates" tabindex="0">
@@ -150,24 +150,17 @@ redirect_from:
 <h2 id="-honors-and-awards">Honors and Awards</h2>
 <div class="honors-section">
 
-<div class="pub-entry">
-<div class="pubteaser"><a href="https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002"><img src="images/projects/kaiwu.png" alt="Kaiwu competition" loading="lazy" /></a></div>
-<div class="pub-body">
-<h3 class="pub-title">Tencent Kaiwu Reinforcement Learning Competition</h3>
-<p class="pub-authors">Team: 南强至善 — <strong>Wei Xiao</strong>*, Yifan Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, <a href="https://yunlongliu.github.io/">Yunlong Liu</a>†</p>
-<p class="pub-venue">Fourth Place (with Bonus ￥20,000) — <em>2023.12</em></p>
-<div class="pub-links"><a href="https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002">Results</a></div>
+<div class="honor-entry">
+<time datetime="2023-12">2023.12</time>
+<div>
+<p class="honor-title"><a href="https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002">Tencent Kaiwu Reinforcement Learning Competition</a><span class="honor-result"> · Fourth Place</span></p>
+<p class="honor-team">Team: 南强至善, <strong>Wei Xiao</strong>*, Yifan Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, <a href="https://yunlongliu.github.io/">Yunlong Liu</a>†</p>
 </div>
 </div>
 
-<div class="pub-entry">
-<div class="pubteaser"><a href="https://zhuanlan.zhihu.com/p/672741107"><img src="images/gif/car.gif" alt="Smart car competition" loading="lazy" /></a></div>
-<div class="pub-body">
-<h3 class="pub-title">The 17th National Smart Car Competition for University Students</h3>
-<p class="pub-authors">Team: 南强至善 — <strong>Wei Xiao</strong>*, Tianhao Hu, Yuhang Liu, Jincai Luo†</p>
-<p class="pub-venue">The Second Prize in South Region — <em>2022.07</em></p>
-<div class="pub-links"><a href="https://zhuanlan.zhihu.com/p/672741107">Blog</a> <a href="https://www.bilibili.com/video/BV1ca411u7DV/">Video 1</a> <a href="https://www.bilibili.com/video/BV1tZ4y1471m/">Video 2</a></div>
-</div>
+<div class="honor-entry">
+<time datetime="2022-07">2022.07</time>
+<p class="honor-title"><a href="https://zhuanlan.zhihu.com/p/672741107">The 17th National Smart Car Competition for University Students</a><span class="honor-result"> · Second Prize, South Region</span><span class="honor-links"><a href="https://www.bilibili.com/video/BV1ca411u7DV/">Video 1</a><a href="https://www.bilibili.com/video/BV1tZ4y1471m/">Video 2</a></span></p>
 </div>
 
 </div>

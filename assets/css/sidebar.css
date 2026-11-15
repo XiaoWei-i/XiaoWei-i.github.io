@@ -7,6 +7,10 @@
   font-family: var(--doc-font);
 }
 
+#_drawer .sidebar-nav .sidebar-nav-item {
+  font-weight: 500;
+}
+
 #_drawer .sidebar-tagline {
   text-transform: none;
 }
