@@ -337,45 +337,8 @@ body.dark-mode #_main.content article.page.home-document {
   font-size: 14px;
 }
 
-#_main.content .home-document .honor-entry {
-  display: grid;
-  grid-template-columns: 74px minmax(0, 1fr);
-  gap: 14px;
-  padding: 14px 0;
-  border-top: 1px solid var(--doc-line);
-  font-size: 14px;
-  line-height: 1.65;
-}
-
-#_main.content .home-document .honor-entry time {
-  color: var(--doc-muted);
-  font-size: 13px;
-  font-variant-numeric: tabular-nums;
-  padding-top: 1px;
-}
-
-#_main.content .home-document .honor-title {
-  margin: 0;
-  font-weight: 500;
-}
-
-#_main.content .home-document .honor-result {
-  color: var(--doc-muted);
-  font-weight: 400;
-}
-
-#_main.content .home-document .honor-team {
-  margin: 5px 0 0;
-  color: var(--doc-muted);
-  font-size: 12px;
-}
-
-#_main.content .home-document .honor-links {
-  display: inline-flex;
-  gap: 12px;
-  margin-left: 14px;
-  font-size: 12px;
-  font-weight: 400;
+#_main.content article.page.home-document .honors-section .pub-entry {
+  grid-template-columns: 145px minmax(0, 1fr);
 }
 
 @container home-document (max-width: 600px) {
@@ -386,7 +349,8 @@ body.dark-mode #_main.content article.page.home-document {
 }
 
 @container home-document (max-width: 480px) {
-  #_main.content article.page.home-document .pub-entry {
+  #_main.content article.page.home-document .pub-entry,
+  #_main.content article.page.home-document .honors-section .pub-entry {
     grid-template-columns: minmax(0, 1fr);
     gap: 18px;
   }
@@ -410,8 +374,7 @@ body.dark-mode #_main.content article.page.home-document {
     margin-top: 42px;
   }
 
-  #_main.content .home-document .news-list li,
-  #_main.content .home-document .honor-entry {
+  #_main.content .home-document .news-list li {
     grid-template-columns: 64px minmax(0, 1fr);
     gap: 10px;
   }

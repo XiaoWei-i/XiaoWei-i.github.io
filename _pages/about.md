@@ -150,17 +150,24 @@ redirect_from:
 <h2 id="-honors-and-awards">Honors and Awards</h2>
 <div class="honors-section">
 
-<div class="honor-entry">
-<time datetime="2023-12">2023.12</time>
-<div>
-<p class="honor-title"><a href="https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002">Tencent Kaiwu Reinforcement Learning Competition</a><span class="honor-result"> · Fourth Place</span></p>
-<p class="honor-team">Team: 南强至善, <strong>Wei Xiao</strong>*, Yifan Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, <a href="https://yunlongliu.github.io/">Yunlong Liu</a>†</p>
+<div class="pub-entry">
+<div class="pubteaser"><a href="https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002"><img src="images/projects/kaiwu.png" alt="Kaiwu competition" loading="lazy" /></a></div>
+<div class="pub-body">
+<h3 class="pub-title">Tencent Kaiwu Reinforcement Learning Competition</h3>
+<p class="pub-authors">Team: 南强至善 — <strong>Wei Xiao</strong>*, Yifan Lin, Jinyang Lai, Huaming Xu, Zejie Jiang, <a href="https://yunlongliu.github.io/">Yunlong Liu</a>†</p>
+<p class="pub-venue">Fourth Place (with Bonus ￥20,000) — <em>2023.12</em></p>
+<div class="pub-links"><a href="https://pre-prod.kaiwu.pvp.qq.com/aiarena/zh/news/b751f28065b7904f0913004a6c413002">Results</a></div>
 </div>
 </div>
 
-<div class="honor-entry">
-<time datetime="2022-07">2022.07</time>
-<p class="honor-title"><a href="https://zhuanlan.zhihu.com/p/672741107">The 17th National Smart Car Competition for University Students</a><span class="honor-result"> · Second Prize, South Region</span><span class="honor-links"><a href="https://www.bilibili.com/video/BV1ca411u7DV/">Video 1</a><a href="https://www.bilibili.com/video/BV1tZ4y1471m/">Video 2</a></span></p>
+<div class="pub-entry">
+<div class="pubteaser"><a href="https://zhuanlan.zhihu.com/p/672741107"><img src="images/gif/car.gif" alt="Smart car competition" loading="lazy" /></a></div>
+<div class="pub-body">
+<h3 class="pub-title">The 17th National Smart Car Competition for University Students</h3>
+<p class="pub-authors">Team: 南强至善 — <strong>Wei Xiao</strong>*, Tianhao Hu, Yuhang Liu, Jincai Luo†</p>
+<p class="pub-venue">The Second Prize in South Region — <em>2022.07</em></p>
+<div class="pub-links"><a href="https://zhuanlan.zhihu.com/p/672741107">Blog</a> <a href="https://www.bilibili.com/video/BV1ca411u7DV/">Video 1</a> <a href="https://www.bilibili.com/video/BV1tZ4y1471m/">Video 2</a></div>
+</div>
 </div>
 
 </div>
